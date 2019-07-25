@@ -1,0 +1,40 @@
+header {
+  background: rebeccapurple;
+  margin-bottom: 1.45rem;
+}
+header .header_container {
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+}
+header .header_container h1 {
+  margin: 0;
+}
+header .header_container h1 .title {
+  color: white;
+  text-decoration: none;
+}
+header .header_container .nav_menu {
+  display: flex;
+  align-items: center;
+}
+header .header_container .nav_list {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+}
+header .header_container .nav_list li {
+  margin: 0;
+}
+header .header_container .nav_list li .nav_Item {
+  color: white;
+  font-size: 0.9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+header .header_container .nav_list li .nav_Item:hover {
+  color: #b3a8a8;
+}
+header .header_container .nav_list li .active_nav_Item {
+  color: #c7b2b2;
+}
