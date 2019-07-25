@@ -24,19 +24,29 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          23'd group
         </Link>
       </h1>
+			<Link to='/'
+				style={{
+					color: `white`,
+					textDecoration: `none`,
+				}}
+			>Main</Link>
+			<Link to='/producers/'
+				style={{
+					color: `white`,
+					textDecoration: `none`,
+				}}
+			>Producers</Link>
+			<Link to='/about-us/'
+				style={{
+					color: `white`,
+					textDecoration: `none`,
+				}}
+			>About us</Link>
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
