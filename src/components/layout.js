@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { Container, Row, Col } from 'bootstrap-4-react'
@@ -15,7 +8,7 @@ import mainStyles from '../styles/main.module.less'
 import "../styles/layout.less"
 import "../styles/style.less"
 
-const Layout = ({ children, intl }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
