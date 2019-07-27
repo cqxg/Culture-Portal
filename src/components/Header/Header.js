@@ -1,6 +1,6 @@
 import React from 'react';
 import Language from "../Language";
-import { FormattedMessage, Link} from "gatsby-plugin-intl"
+import { FormattedMessage, Link} from "gatsby-plugin-intl";
 import { Container, Row, Col } from 'react-bootstrap';
 
 import headerStyles from './header.module.less';
@@ -43,4 +43,4 @@ const Header = () => (
   </header>
 )
 
-export default Header
+export default Header;

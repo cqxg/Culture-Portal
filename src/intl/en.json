@@ -3,7 +3,7 @@
     "main": "Main",
     "directors": "Directors",
     "aboutUs": "About us",
-    "siteTitle": "Belorussian Directors Portal"
+    "siteTitle": "Belarusian Directors Portal"
   },
 
   "notFound": {
@@ -20,7 +20,7 @@
 
   "index": {
     "hello": "Main page",
-    "welcome": "Welcome to your new Gatsby site",
+    "welcome": "Welcome to Belarusian Directors Culture Portal",
     "build": "Now go build something great"
   },
 

@@ -1,5 +1,5 @@
-import React from "react"
-import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
+import React from "react";
+import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
 
 const languageName = {
   en: "English",
@@ -34,4 +34,4 @@ const Language = () => {
   )
 }
 
-export default Language
+export default Language;

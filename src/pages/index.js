@@ -1,8 +1,8 @@
-import React from 'react'
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
-import Layout from '../components/Layouts/Layout'
-import Image from '../components/image'
-import SEO from '../components/seo'
+import React from 'react';
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+import Layout from '../components/Layouts/Layout';
+import Image from '../components/image';
+import SEO from '../components/seo';
 
 const IndexPage = ({ intl }) => {
   return (
@@ -29,4 +29,4 @@ const IndexPage = ({ intl }) => {
 }
 
 
-export default injectIntl(IndexPage)
+export default injectIntl(IndexPage);

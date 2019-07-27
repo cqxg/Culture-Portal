@@ -1,11 +1,11 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { Container, Row, Col } from 'react-bootstrap'
+import React from "react";
+import PropTypes from "prop-types";
+import { Container, Row, Col } from 'react-bootstrap';
 
-import Header from "../Header/Header"
-import footerStyles from './layout.module.less'
-import mainStyles from '../../mainStyles/main.module.less'
-import "./layout.less"
+import Header from "../Header/Header";
+import footerStyles from './layout.module.less';
+import mainStyles from '../../mainStyles/main.module.less';
+import "./layout.less";
 
 const Layout = ({ children }) => {
   return (
