@@ -1,11 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `23'd GROUP`,
+    title: `Belorussian Directors Portal`,
     description: `RSSchool. Stage #3. Task - Culture portal.`,
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/intl`,
+        // supported language
+        languages: [`en`, `ru`, `be`],
+        // language file path
+        defaultLanguage: `en`,
+        // option to redirect to `/ko` when connecting `/`
+        redirect: true,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
