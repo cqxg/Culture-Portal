@@ -1,6 +1,6 @@
 import React from "react"
 import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
-import Layout from "../components/layout"
+import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
 
 const Directors = ({ intl }) => (
