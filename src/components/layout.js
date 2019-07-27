@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Container, Row, Col } from 'bootstrap-4-react'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import Header from "./header"
 import footerStyles from '../styles/layout.module.less'

@@ -1,7 +1,7 @@
 import React from 'react';
 import Language from "./language";
 import { FormattedMessage, Link} from "gatsby-plugin-intl"
-import { Container, Row, Col } from 'bootstrap-4-react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import headerStyles from '../styles/header.module.less';
 
