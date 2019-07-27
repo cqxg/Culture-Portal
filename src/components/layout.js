@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from 'bootstrap-4-react'
 
 import Header from "./header"
@@ -16,40 +15,29 @@ import mainStyles from '../styles/main.module.less'
 import "../styles/layout.less"
 import "../styles/style.less"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
+const Layout = ({ children, intl }) => {
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
 
 			<main className={mainStyles.main}>{children}</main>
 
 			<footer>
-			<Container className={footerStyles.footer_container}>
-			<Row>
-				<Col col='1'>
-				</Col>
-				<Col col='10' className={footerStyles.gatsby}>
-					<div>
-						© {new Date().getFullYear()}, Built with
-						{` `}
-						<a href="https://www.gatsbyjs.org">Gatsby</a>
-					</div>
-				</Col>
-				<Col col='1'>
-				</Col>
-			</Row>
-		</Container>
-
+        <Container className={footerStyles.footer_container}>
+          <Row>
+            <Col col='1'>
+            </Col>
+            <Col col='10' className={footerStyles.gatsby}>
+              <div>
+                © {new Date().getFullYear()}, Built with
+                {` `}
+                <a href="https://www.gatsbyjs.org">Gatsby</a>
+              </div>
+            </Col>
+            <Col col='1'>
+            </Col>
+          </Row>
+        </Container>
 			</footer>
     </>
   )

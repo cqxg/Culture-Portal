@@ -1,0 +1,32 @@
+{
+  "header": {
+    "main": "Main",
+    "directors": "Directors",
+    "aboutUs": "About us",
+    "siteTitle": "Belorussian Directors Portal"
+  },
+
+  "notFound": {
+    "title": "NOT FOUND",
+    "description": "You just hit a route that doesn't exist... the sadness."
+  },
+
+  "aboutUs": {
+    "aboutUs": "About us",
+    "welcomeDevelopers": "Welcome to developers page"
+  },
+
+  "backHomePage": "Go back to the homepage",
+
+  "index": {
+    "hello": "Main page",
+    "welcome": "Welcome to your new Gatsby site",
+    "build": "Now go build something great"
+  },
+
+  "directors": {
+    "titleDirector": "Belarusian producer",
+    "helloDirectors": "Belarusian directors",
+    "welcomeDirectors": "Welcome to Belarusian directors page"
+  }
+}
