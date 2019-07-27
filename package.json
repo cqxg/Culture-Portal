@@ -9,6 +9,7 @@
     "bootstrap-4-react": "0.0.58",
     "gatsby": "^2.13.39",
     "gatsby-image": "^2.2.6",
+    "gatsby-plugin-intl": "^0.2.7",
     "gatsby-plugin-less": "^2.1.2",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-offline": "^2.2.4",
