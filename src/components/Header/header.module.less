@@ -1,5 +1,7 @@
+@import "../../mainStyles/_library.less";
+
 header {
-	background: rebeccapurple;
+	background: @color-red;
 	margin-bottom: 1.45rem;
 	.header_container {
 		margin: 0 auto;
@@ -7,7 +9,7 @@ header {
 		h1 {
 			margin: 0;
 			.title {
-				color: white;
+				color: @color-light;
 				text-decoration: none;
 			}
 		}
@@ -23,16 +25,16 @@ header {
 			li {
 				margin: 0;
 				.nav_Item {
-					color: white;
+					color: @color-light;
 					font-size: 0.9rem;
 					margin-right: 1.3rem;
 					text-decoration: none;
 				}
 				.nav_Item:hover {
-					color: rgb(179, 168, 168);
+					color: @color-orange;
 				}
 				.active_nav_Item {
-					color: rgb(199, 178, 178);
+					color: @color-grey;
 				}
 			}
 		}

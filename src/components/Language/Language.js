@@ -1,10 +1,11 @@
 import React from "react";
 import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
+import "./Language.less";
 
 const languageName = {
-  en: "English",
-  ru: "Русский",
-  be: "Беларускі",
+  en: "Eng",
+  ru: "Рус",
+  be: "Бел",
 }
 
 const Language = () => {
@@ -14,24 +15,21 @@ const Language = () => {
         {({ languages, language: currentLocale }) =>
           languages.map(language => (
             <button
-              type="buton"
+              type="button"
               key={language}
+              className="lang-button"
               onClick={() => changeLocale(language)}
               style={{
-                color: currentLocale === language ? `#FFAF1E` : `rebeccapurple`,
-                backgroundColor: `white`,
-                margin: 5,
-                textDecoration: `none`,
-                cursor: `pointer`,
+                color: currentLocale === language ? `#d04925` : `#e9e5dd`,            
               }}
             >
               {languageName[language]}
             </button>
           ))
-        }
+        } 
       </IntlContextConsumer>
     </div>
-  )
-}
-
-export default Language;
+      )
+    }
+    
+    export default Language;
