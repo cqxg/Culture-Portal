@@ -1,5 +1,6 @@
+@import "../../mainStyles/_library.less";
 header {
-  background: rebeccapurple;
+  background: @color-red;
   margin-bottom: 1.45rem;
 }
 header .header_container {

@@ -1,0 +1,32 @@
+{
+  "header": {
+    "main": "Главная",
+    "directors": "Режиссеры",
+    "aboutUs": "О нас",
+    "siteTitle": "Портал о белорусских режиссерах"
+  },
+
+  "notFound": {
+    "title": "NOT FOUND",
+    "description": "You just hit a route that doesn't exist... the sadness."
+  },
+
+  "aboutUs": {
+    "aboutUs": "О нас",
+    "welcomeDevelopers": "Добро пожаловать на страницу разработчиков"
+  },
+
+  "backHomePage": "Назад на главную",
+
+  "index": {
+    "hello": "Главная страница",
+    "welcome": "Добро пожаловать на новый Gatsby сайт",
+    "build": "Давай создадим что-то крутое"
+  },
+
+  "directors": {
+    "titleDirector": "Белорусский режиссер",
+    "helloDirectors": "Белорусские режисеры",
+    "welcomeDirectors": "Добро пожаловать на страницу белорусских режиссеров"
+  }
+}

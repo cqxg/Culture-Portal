@@ -1,0 +1,32 @@
+{
+  "header": {
+    "main": "Галоўная",
+    "directors": "Рэжысёры",
+    "aboutUs": "Пра нас",
+    "siteTitle": "Партал пра беларускіх рэжысёраў"
+  },
+
+  "notFound": {
+    "title": "NOT FOUND",
+    "description": "You just hit a route that doesn't exist... the sadness."
+  },
+
+  "aboutUs": {
+    "aboutUs": "Пра нас",
+    "welcomeDevelopers": "Сардэчна запрашаем на старонку распрацоўшчыкаў"
+  },
+
+  "backHomePage": "Назад на галоўную",
+
+  "index": {
+    "hello": "Галоўная старонка",
+    "welcome": "Сардэчна запрашаем на новы Gatsby сайт",
+    "build": "Давай створым нешта крутое"
+  },
+
+  "directors": {
+    "titleDirector": "Беларускі рэжысёр",
+    "helloDirectors": "Беларускія рэжысёры",
+    "welcomeDirectors": "Сардэчна запрашаем на старонку беларускіх рэжысёраў"
+  }
+}
