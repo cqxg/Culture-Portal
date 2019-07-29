@@ -6,6 +6,11 @@
     "siteTitle": "Портал о белорусских режиссерах"
   },
 
+  "main":{
+    "title": "Какой-то заголовок",
+    "description": "Какое-то описание"
+  },
+
   "notFound": {
     "title": "NOT FOUND",
     "description": "You just hit a route that doesn't exist... the sadness."

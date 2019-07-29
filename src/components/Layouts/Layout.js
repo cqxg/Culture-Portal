@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 import { Container, Row, Col } from 'react-bootstrap';
 
 import Header from "../Header/Header";
+import Main from "../Main/Main";
+
 import footerStyles from './layout.module.less';
-import mainStyles from '../../mainStyles/main.module.less';
+
 import "./layout.less";
 
 const Layout = ({ children }) => {
@@ -12,7 +14,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
 
-			<main className={mainStyles.main}>{children}</main>
+      <Main />
 
 			<footer>
         <Container className={footerStyles.footer_container}>

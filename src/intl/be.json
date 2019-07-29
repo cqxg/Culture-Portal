@@ -5,6 +5,11 @@
     "aboutUs": "Пра нас",
     "siteTitle": "Партал пра беларускіх рэжысёраў"
   },
+  
+  "main":{
+    "title": "Нейкі загаловак",
+    "description": "Нейкае апісанне"
+  },
 
   "notFound": {
     "title": "NOT FOUND",
