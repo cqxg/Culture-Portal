@@ -1,5 +1,5 @@
 header {
-  background: rebeccapurple;
+  background: #992e24;
   margin-bottom: 1.45rem;
 }
 header .header_container {
@@ -10,7 +10,7 @@ header .header_container h1 {
   margin: 0;
 }
 header .header_container h1 .title {
-  color: #b34141;
+  color: #e9e5dd;
   text-decoration: none;
 }
 header .header_container .nav_menu {
@@ -27,14 +27,14 @@ header .header_container .nav_list li {
   margin: 0;
 }
 header .header_container .nav_list li .nav_Item {
-  color: white;
+  color: #e9e5dd;
   font-size: 0.9rem;
   margin-right: 1.3rem;
   text-decoration: none;
 }
 header .header_container .nav_list li .nav_Item:hover {
-  color: #b3a8a8;
+  color: #d04925;
 }
 header .header_container .nav_list li .active_nav_Item {
-  color: #c7b2b2;
+  color: #696464;
 }

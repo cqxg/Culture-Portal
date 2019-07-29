@@ -3,17 +3,17 @@ import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl";
 import Layout from "../components/Layouts/Layout";
 import SEO from "../components/seo";
 
-const AboutUs = ({ intl }) => (
+const Directors = ({ intl }) => (
   <Layout>
     <SEO
       lang={intl.locale}
-      title={intl.formatMessage({ id: "header.siteTitle" })}
+      title={intl.formatMessage({ id: "directors.titleDirector" })}
     />
     <h1>
-      <FormattedMessage id="aboutUs.aboutUs" />
+      <FormattedMessage id="directors.helloDirectors" />
     </h1>
     <p>
-      <FormattedMessage id="aboutUs.welcomeDevelopers" />
+      <FormattedMessage id="directors.welcomeDirectors" />
     </p>
     <Link to="/">
       <FormattedMessage id="backHomePage" />
@@ -21,4 +21,4 @@ const AboutUs = ({ intl }) => (
   </Layout>
 )
 
-export default injectIntl(AboutUs);
+export default injectIntl(Directors);
