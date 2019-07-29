@@ -7,13 +7,13 @@ public_folder: /uploads
 
 collections:
   - name: "directors"
-    label: "Blog"
+    label: "Directors"
     folder: "content/directors"
     create: true
     identifier_field: ID
     fields:
      - {label: "Name", name: "name", widget: "string"}
-     - {label: "ID" name: id, widget: "string"}
+     - {label: "ID", name: id, widget: "string"}
      - {label: "Years of live", name: "years of live", widget: "string"}
      - {label: "Bio", name: "bio", widget: "markdown"}
      - {label: "Location", name: "location", widget: "string"}
