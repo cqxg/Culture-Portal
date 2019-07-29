@@ -10,7 +10,7 @@ collections:
     label: "Directors"
     folder: "content/directors"
     create: true
-    identifier_field: ID
+    identifier_field: id
     fields:
      - {label: "Name", name: "name", widget: "string"}
      - {label: "ID", name: id, widget: "string"}
