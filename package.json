@@ -26,6 +26,11 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "reactstrap": "^8.0.1"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-ideal": "^1.0.0",
+    "eslint-plugin-import": "^2.17.2"
+
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",
@@ -41,7 +46,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "lint": "eslint src/components",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",

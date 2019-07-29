@@ -24,9 +24,12 @@
     "build": "Now go build something great"
   },
 
+  "toDirector": "To the director's page",
+
   "directors": {
     "titleDirector": "Belarusian producer",
     "helloDirectors": "Belarusian directors",
-    "welcomeDirectors": "Welcome to Belarusian directors page"
+    "welcomeDirectors": "Welcome to Belarusian directors page",
+    "welcomeDirector": "Welcome to Belarusian director page"
   }
 }
