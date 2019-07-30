@@ -13,18 +13,6 @@ const IndexPage = ({ intl }) => {
         title={intl.formatMessage({ id: "header.siteTitle" })}
         keywords={[`gatsby`, `application`, `react`]}
       />
-      {/* <h1>
-        <FormattedMessage id="index.hello" />
-      </h1>
-      <p>
-        <FormattedMessage id="index.welcome" />
-      </p>
-      <p>
-        <FormattedMessage id="index.build" />
-      </p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div> */}
       <Main/>
     </Layout>
   )

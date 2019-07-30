@@ -16,7 +16,6 @@ const director = {
 }
 
 const Main = () => ( 
-    <main>
         <Container className={mainStyles.main_container}>
             <Row >
                 <Col col={12}>
@@ -38,7 +37,6 @@ const Main = () => (
                 <TopDirector director={director}/>
             </Row>
         </Container>
-    </main>
 )
 
 export default Main;

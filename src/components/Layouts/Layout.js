@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Container, Row, Col } from 'react-bootstrap';
 
 import Header from "../Header/Header";
-import Main from "../Main/Main";
 
 import footerStyles from './layout.module.less';
 
