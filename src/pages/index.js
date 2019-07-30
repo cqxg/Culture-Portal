@@ -3,6 +3,7 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import Layout from '../components/Layouts/Layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
+import Main from "../components/Main/Main";
 
 const IndexPage = ({ intl }) => {
   return (
@@ -12,7 +13,7 @@ const IndexPage = ({ intl }) => {
         title={intl.formatMessage({ id: "header.siteTitle" })}
         keywords={[`gatsby`, `application`, `react`]}
       />
-      <h1>
+      {/* <h1>
         <FormattedMessage id="index.hello" />
       </h1>
       <p>
@@ -23,7 +24,8 @@ const IndexPage = ({ intl }) => {
       </p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
-      </div>
+      </div> */}
+      <Main/>
     </Layout>
   )
 }
