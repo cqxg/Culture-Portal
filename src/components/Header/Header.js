@@ -16,7 +16,7 @@ const Header = () => (
 						</Link>
 					</h1>
 				</Col>
-				<Col lg={3} md={3}>
+				<Col lg={3} md={3} className={headerStyles.languages}>
 					<Language />
 				</Col>
 			</Row>
