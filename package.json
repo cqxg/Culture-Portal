@@ -6,6 +6,10 @@
   "author": "23'd RSS group",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-ideal": "^1.0.0",
+    "eslint-plugin-import": "^2.17.2",
     "gatsby": "^2.13.39",
     "gatsby-cli": "^2.7.20",
     "gatsby-image": "^2.2.6",
@@ -25,10 +29,7 @@
     "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-ideal": "^1.0.0",
-    "eslint-plugin-import": "^2.17.2"
+    "reactstrap": "^8.0.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

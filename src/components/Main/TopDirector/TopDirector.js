@@ -1,23 +1,29 @@
 import React from 'react';
 import { FormattedMessage, Link } from "gatsby-plugin-intl";
-import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col, Button } from 'reactstrap';
 
 import topDirectorStyles from './topDirector.module.less';
 
 const TopDirector = ({ director }) => (
     <Col className={topDirectorStyles.topDirector_container}>
         <Row className={topDirectorStyles.topDirector_title_container}>
-            <h2>Top Director</h2>
+            <h2>Director of the day</h2>
         </Row>
+
         <Row className={topDirectorStyles.topDirector_content_container}>
-            <Col col={9} >
+            <Col md={7} xs={{size: 12, order: 1}} >
                 <h3>{director.name}</h3>
                 <p>{`${director.birth} - ${director.death ? director.death : "Alive"}`}</p>
-                <h4>{director.description}</h4>
-                <Link to="/"><button variant="primary">Go</button></Link>
             </Col>
-            <Col col={3}>
-                <div>
+
+            <Col md={7} xs={{size: 12, order: 3}}>
+                <h4>{director.description}</h4>
+                <Link to="/" className={topDirectorStyles.contentButton}><Button variant="primary">Go</Button></Link>
+            </Col>
+
+            <Col md={5} xs={{size: 12, order: 2}}>
+                <div className={topDirectorStyles.topDirector_container_content_img_resize}>
                     <img src={director.img} alt="director_avatar"/>
                 </div>   
             </Col>

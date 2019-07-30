@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from 'reactstrap';
 import FormattedMessage from  "gatsby-plugin-intl";
 
 import mainStyles from './main.module.less';
@@ -10,7 +11,7 @@ const director = {
     birth: "30 january",
     death: "23 june",
     img: "ddas",
-    description: "loves write, drink, and music",
+    description: "loves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and music",
     link: "thisway"
 }
 
@@ -19,17 +20,17 @@ const Main = () => (
         <Container className={mainStyles.main_container}>
             <Row >
                 <Col col={12}>
-                    <h1>
+                    <h1 className={mainStyles.title}>
                         Title
-                        {/* <FormattedMessage className={mainStyles.title} id="main.siteTitle"/> */}
+                        {/* <FormattedMessage  id="main.siteTitle"/> */}
                     </h1>
                 </Col>
             </Row>
             <Row >
                 <Col col={12}>
-                    <h3>
+                    <h3 className={mainStyles.description}>
                         Description
-                        {/* <FormattedMessage className={mainStyles.description} id="main.description"/> */}
+                        {/* <FormattedMessage  id="main.description"/> */}
                     </h3>
                 </Col>
             </Row>
