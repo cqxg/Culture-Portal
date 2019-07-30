@@ -1,6 +1,6 @@
-import React from "react";
-import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
-import "./Language.less";
+import React from "react"
+import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
+import "./Language.less"
 
 const languageName = {
   en: "Eng",
@@ -20,16 +20,16 @@ const Language = () => {
               className="lang-button"
               onClick={() => changeLocale(language)}
               style={{
-                color: currentLocale === language ? `#d04925` : `#e9e5dd`,            
+                color: currentLocale === language ? `#d04925` : `#e9e5dd`,
               }}
             >
               {languageName[language]}
             </button>
           ))
-        } 
+        }
       </IntlContextConsumer>
     </div>
-      )
-    }
-    
-    export default Language;
+  )
+}
+
+export default Language

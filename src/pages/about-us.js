@@ -1,7 +1,7 @@
-import React from "react";
-import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl";
-import Layout from "../components/Layouts/Layout";
-import SEO from "../components/seo";
+import React from "react"
+import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
+import Layout from "../components/Layouts/Layout"
+import SEO from "../components/seo"
 
 const AboutUs = ({ intl }) => (
   <Layout>
@@ -21,4 +21,4 @@ const AboutUs = ({ intl }) => (
   </Layout>
 )
 
-export default injectIntl(AboutUs);
+export default injectIntl(AboutUs)

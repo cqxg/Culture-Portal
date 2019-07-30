@@ -1,7 +1,7 @@
-import React from "react";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
-import Layout from "../components/Layouts/Layout";
-import SEO from "../components/seo";
+import React from "react"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
+import Layout from "../components/Layouts/Layout"
+import SEO from "../components/seo"
 
 const NotFoundPage = ({ intl }) => (
   <Layout>
@@ -18,4 +18,4 @@ const NotFoundPage = ({ intl }) => (
   </Layout>
 )
 
-export default injectIntl(NotFoundPage);
+export default injectIntl(NotFoundPage)

@@ -1,7 +1,7 @@
-import React from "react";
-import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl";
-import Layout from "../components/Layouts/Layout";
-import SEO from "../components/seo";
+import React from "react"
+import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl"
+import Layout from "../components/Layouts/Layout"
+import SEO from "../components/seo"
 
 const Directors = ({ intl }) => (
   <Layout>
@@ -19,11 +19,11 @@ const Directors = ({ intl }) => (
       <FormattedMessage id="backHomePage" />
     </Link>
     <p>
-    <Link to="/director-page">
-      <FormattedMessage id="toDirector" />
-    </Link>
+      <Link to="/director-page">
+        <FormattedMessage id="toDirector" />
+      </Link>
     </p>
   </Layout>
 )
 
-export default injectIntl(Directors);
+export default injectIntl(Directors)
