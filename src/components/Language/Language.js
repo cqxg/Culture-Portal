@@ -10,14 +10,14 @@ const languageName = {
 
 const Language = () => {
   return (
-    <div>
+    <div className="header-button">
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) =>
           languages.map(language => (
             <button
               type="button"
               key={language}
-              className="lang-button"
+              className="header-button__lang-button"
               onClick={() => changeLocale(language)}
               style={{
                 color: currentLocale === language ? `#d04925` : `#e9e5dd`,            

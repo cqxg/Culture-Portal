@@ -15,6 +15,7 @@ header .header_container h1 .title {
 }
 header .header_container .nav_menu {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 header .header_container .nav_list {
@@ -33,8 +34,14 @@ header .header_container .nav_list li .nav_Item {
   text-decoration: none;
 }
 header .header_container .nav_list li .nav_Item:hover {
-  color: #d04925;
+  color: #ffffff;
 }
 header .header_container .nav_list li .active_nav_Item {
-  color: #696464;
+  color: #ffffff;
+  text-decoration: underline;
+}
+header .header_container .languages {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
