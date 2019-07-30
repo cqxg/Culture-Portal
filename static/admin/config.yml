@@ -6,14 +6,20 @@ media_folder: static/uploads
 public_folder: /uploads
 
 collections:
-  - name: "directors"
-    label: "Blog"
+  - name: "director in English"
+    label: "Director in English"
     folder: "content/directors"
     create: true
+    identifier_field: id
+    format: json
+    extension: json
+    filter: {field: "language", value: "en"}
     fields:
-     - {label: "Firstname", name: "firstname", widget: "string"}
+     - {label: "Language", name: "language", widget: "select", options: ["en", "by", "ru"]}
      - {label: "Name", name: "name", widget: "string"}
+     - {label: "ID", name: id, widget: "string"}
      - {label: "Years of live", name: "years of live", widget: "string"}
+     - {label: "Bio", name: "bio", widget: "markdown"}
      - {label: "Location", name: "location", widget: "string"}
      - label: "Timeline"
        name: "timeline"
@@ -31,3 +37,6 @@ collections:
        widget: "list"
        fields:
         - widget: image
+     - label: "Video"
+       name: "video"
+       widget: "string"

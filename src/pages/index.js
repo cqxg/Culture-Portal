@@ -5,17 +5,20 @@ import Image from '../components/image';
 import SEO from '../components/seo';
 import Main from "../components/Main/Main";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from 'reactstrap';
+
 const IndexPage = ({ intl }) => {
-  return (
-    <Layout>
-      <SEO
-        lang={intl.locale}
-        title={intl.formatMessage({ id: "header.siteTitle" })}
-        keywords={[`gatsby`, `application`, `react`]}
-      />
-      <Main/>
-    </Layout>
-  )
+	return (
+		<Layout>
+			<SEO
+				lang={intl.locale}
+				title={intl.formatMessage({ id: "header.siteTitle" })}
+				keywords={[`gatsby`, `application`, `react`]}
+			/>
+			<Main/>
+		</Layout>
+	)
 }
 
 
