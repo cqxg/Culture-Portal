@@ -5,6 +5,7 @@ import FormattedMessage from "gatsby-plugin-intl"
 
 import mainStyles from "./main.module.less"
 import TopDirector from "./TopDirector/TopDirector"
+import Video from "../Video/Video"
 
 const director = {
   name: "Evklid Seventeen",
@@ -49,6 +50,9 @@ const Main = () => (
     </Row>
     <Row>
       <TopDirector director={director} />
+    </Row>
+    <Row>
+      <Video />
     </Row>
   </Container>
 )
