@@ -6,9 +6,9 @@ media_folder: src/images/uploads
 public_folder: images/uploads
 
 collections:
-  - name: "director in English"
-    label: "Director in English"
-    folder: "src/content/directors/en"
+  - label: "Director"
+    name: "director"
+    folder: "src/content/directors"
     create: true
     identifier_field: id
     format: json
@@ -16,72 +16,107 @@ collections:
     filter: {field: "language", value: "en"}
     fields:
      - {label: "ID", name: id, widget: "string"}
-     - {label: "Years of live", name: "years of live", widget: "string"}
-     - {label: "Location", name: "location", widget: "string"}
-     - label: "Gallery"
+     - {label: "Years of life/Годы жизни/Гады жыцця", name: "yearsOfLife", widget: "string"}
+     - label: "Gallery/Галерея/Галерэя"
        name: "galleryImages"
        widget: "list"
        fields:
-        - label: "Image"
+        - label: "Image/Изображение/Малюнак"
           name: "image"
           widget: image
      - label: "English language"
-       name: "english language"
+       name: "en"
        widget: "object"
        fields:
         - {label: "Name", name: "name", widget: "string"}
+        - {label: "Location", name: "location", widget: "string"}
         - {label: "Bio", name: "bio", widget: "markdown"}
         - label: "Timeline"
           name: "timeline"
           widget: "list"
           fields:
-            - label: Time
-              name: time
-              widget: string
+            - label: "Time"
+              name: "time"
+              widget: "string"
               default: "1980"
-            - label: Description
-              name: description
-              widget: string
+            - label: "Description"
+              name: "description"
+              widget: "string"
+        - label: "Films"
+          name: "films"
+          widget: "list"
+          fields:
+            - label: "Year of film"
+              name: "filmYear"
+              widget: "string"
+              default: "1980"
+            - label: "Film name"
+              name: "filmName"
+              widget: "string"
         - label: "Video"
           name: "video"
           widget: "string"
-     - label: "Russian language"
-       name: "russian language"
+     - label: "Русский язык"
+       name: "ru"
        widget: "object"
        fields:
-        - {label: "Name", name: "name", widget: "string"}
-        - {label: "Bio", name: "bio", widget: "markdown"}
-        - label: "Timeline"
+        - {label: "Имя", name: "name", widget: "string"}
+        - {label: "Место", name: "location", widget: "string"}
+        - {label: "Биография", name: "bio", widget: "markdown"}
+        - label: "Хронология"
           name: "timeline"
           widget: "list"
           fields:
-            - label: Time
-              name: time
-              widget: string
+            - label: "Время"
+              name: "time"
+              widget: "string"
               default: "1980"
-            - label: Description
-              name: description
-              widget: string
-        - label: "Video"
+            - label: "Описание"
+              name: "description"
+              widget: "string"
+        - label: "Фильмография"
+          name: "films"
+          widget: "list"
+          fields:
+            - label: "Год выхода фильма"
+              name: "filmYear"
+              widget: "string"
+              default: "1980"
+            - label: "Название фильма"
+              name: "filmName"
+              widget: "string"
+        - label: "Видео"
           name: "video"
           widget: "string"
-     - label: "Belarusian language"
-       name: "belarussian language"
+     - label: "Беларуская мова"
+       name: "be"
        widget: "object"
        fields:
-        - {label: "Name", name: "name", widget: "string"}
-        - {label: "Bio", name: "bio", widget: "markdown"}
-        - label: "Timeline"
+        - {label: "Імя", name: "name", widget: "string"}
+        - {label: "Месца", name: "location", widget: "string"}
+        - {label: "Біяграфія", name: "bio", widget: "markdown"}
+        - label: "Храналогія"
           name: "timeline"
           widget: "list"
           fields:
-            - label: Time
-              name: time
-              widget: string
+            - label: "Час"
+              name: "time"
+              widget: "string"
               default: "1980"
-            - label: Description
-              name: description
-              widget: string
-        - label: "Video"
+            - label: "Апісанне"
+              name: "description"
+              widget: "string"
+        - label: "Фільмаграфія"
+          name: "films"
+          widget: "list"
+          fields:
+            - label: "Год выхаду фільма"
+              name: "filmYear"
+              widget: "string"
+              default: "1980"
+            - label: "Назва фільма"
+              name: "filmName"
+              widget: "string"
+        - label: "Відэа"
           name: "video"
           widget: "string"
