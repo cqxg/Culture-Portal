@@ -42,8 +42,8 @@ const IndexPage = ({ intl }) => {
 					</Col>
 				</Row>
 			</Container>
-    </Layout>
-  )
+		</Layout>
+	)
 }
 
 
