@@ -1,5 +1,4 @@
-@import "../../mainStyles/_library.less";
-@import (css) url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,400,400i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,400,400i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext');
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -201,8 +200,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: @color-grey;
-  background-color: @color-light;
+  color: #696464;
+  background-color: #e9e5dd;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -400,7 +399,7 @@ pre {
   margin-bottom: 1.45rem;
   font-size: 0.85rem;
   line-height: 1.42;
-  background: hsla(0, 0%, 0%, 0.04);
+  background: rgba(0, 0, 0, 0.04);
   border-radius: 3px;
   overflow: auto;
   word-wrap: normal;
@@ -478,8 +477,8 @@ hr {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: calc(1.45rem - 1px);
-  background: hsla(0, 0%, 0%, 0.2);
+  margin-bottom: calc(0.45rem);
+  background: rgba(0, 0, 0, 0.2);
   border: none;
   height: 1px;
 }
@@ -506,7 +505,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: calc(0.725rem);
 }
 ol li {
   padding-left: 0;
@@ -516,13 +515,13 @@ ul li {
 }
 li > ol {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-bottom: calc(0.725rem);
+  margin-top: calc(0.725rem);
 }
 li > ul {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-bottom: calc(0.725rem);
+  margin-top: calc(0.725rem);
 }
 blockquote *:last-child {
   margin-bottom: 0;
@@ -534,7 +533,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 li > p {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: calc(0.725rem);
 }
 code {
   font-size: 0.85rem;
@@ -549,15 +548,15 @@ samp {
   line-height: 1.45rem;
 }
 abbr {
-  border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
   cursor: help;
 }
 acronym {
-  border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
   cursor: help;
 }
 abbr[title] {
-  border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
   cursor: help;
   text-decoration: none;
 }
@@ -567,7 +566,7 @@ thead {
 td,
 th {
   text-align: left;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
@@ -575,7 +574,7 @@ th {
   padding-left: 0.96667rem;
   padding-right: 0.96667rem;
   padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
+  padding-bottom: calc(-0.275rem);
 }
 th:first-child,
 td:first-child {
@@ -587,10 +586,9 @@ td:last-child {
 }
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  background-color: rgba(0, 0, 0, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -618,8 +616,8 @@ pre tt:after {
   }
 }
 #___gatsby {
-	height: 100vh;
+  height: 100vh;
 }
 #gatsby-focus-wrapper {
-	height: 100vh;
+  height: 100vh;
 }

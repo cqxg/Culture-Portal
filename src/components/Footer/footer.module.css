@@ -1,0 +1,18 @@
+footer {
+  flex: 0 0 auto;
+  background: #696464;
+}
+footer .footer_container {
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+  color: #e9e5dd;
+}
+footer .footer_container .gatsby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+footer .footer_container a {
+  color: #e9e5dd;
+}
