@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: static/uploads
-public_folder: /uploads
+media_folder: src/images/uploads
+public_folder: images/uploads
 
 collections:
   - name: "director in English"
@@ -15,23 +15,9 @@ collections:
     extension: json
     filter: {field: "language", value: "en"}
     fields:
-     - {label: "Language", name: "language", widget: "select", options: ["en", "by", "ru"]}
-     - {label: "Name", name: "name", widget: "string"}
      - {label: "ID", name: id, widget: "string"}
      - {label: "Years of live", name: "years of live", widget: "string"}
-     - {label: "Bio", name: "bio", widget: "markdown"}
      - {label: "Location", name: "location", widget: "string"}
-     - label: "Timeline"
-       name: "timeline"
-       widget: "list"
-       fields:
-        - label: Time
-          name: time
-          widget: string
-          default: "01.01.1980"
-        - label: Description
-          name: description
-          widget: string
      - label: "Gallery"
        name: "galleryImages"
        widget: "list"
@@ -39,6 +25,63 @@ collections:
         - label: "Image"
           name: "image"
           widget: image
-     - label: "Video"
-       name: "video"
-       widget: "string"
+     - label: "English language"
+       name: "english language"
+       widget: "object"
+       fields:
+        - {label: "Name", name: "name", widget: "string"}
+        - {label: "Bio", name: "bio", widget: "markdown"}
+        - label: "Timeline"
+          name: "timeline"
+          widget: "list"
+          fields:
+            - label: Time
+              name: time
+              widget: string
+              default: "1980"
+            - label: Description
+              name: description
+              widget: string
+        - label: "Video"
+          name: "video"
+          widget: "string"
+     - label: "Russian language"
+       name: "russian language"
+       widget: "object"
+       fields:
+        - {label: "Name", name: "name", widget: "string"}
+        - {label: "Bio", name: "bio", widget: "markdown"}
+        - label: "Timeline"
+          name: "timeline"
+          widget: "list"
+          fields:
+            - label: Time
+              name: time
+              widget: string
+              default: "1980"
+            - label: Description
+              name: description
+              widget: string
+        - label: "Video"
+          name: "video"
+          widget: "string"
+     - label: "Belarusian language"
+       name: "belarussian language"
+       widget: "object"
+       fields:
+        - {label: "Name", name: "name", widget: "string"}
+        - {label: "Bio", name: "bio", widget: "markdown"}
+        - label: "Timeline"
+          name: "timeline"
+          widget: "list"
+          fields:
+            - label: Time
+              name: time
+              widget: string
+              default: "1980"
+            - label: Description
+              name: description
+              widget: string
+        - label: "Video"
+          name: "video"
+          widget: "string"
