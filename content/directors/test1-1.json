@@ -1,0 +1,24 @@
+{
+  "timeline": [
+    {
+      "time": "01.01.1980 - 01.01.1990",
+      "description": "Description 1"
+    },
+    {
+      "time": "01.01.1990 - 01.01.2000",
+      "description": "Description 2"
+    }
+  ],
+  "bio": "Biography",
+  "galleryImages": [
+    {
+      "undefined": "/uploads/garbage.png"
+    }
+  ],
+  "name": "Test Testovich",
+  "years of live": "1900-2000",
+  "location": "Location info",
+  "language": "en",
+  "video": "Video link",
+  "id": "test1"
+}

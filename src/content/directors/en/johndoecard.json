@@ -1,0 +1,58 @@
+{
+  "id": "johnDoeCard",
+  "years of live": "1961-1981",
+  "location": "Minsk",
+  "galleryImages": [
+    {
+      "image": "/images/uploads/image.gif"
+    },
+    {
+      "image": "/images/uploads/image-1-.gif"
+    }
+  ],
+  "english language": {
+    "name": "John Doe",
+    "bio": "John Doe was born...",
+    "timeline": [
+      {
+        "time": "1970-1975",
+        "description": "Started playing guitar"
+      },
+      {
+        "time": "1976-1978",
+        "description": "Started learning about space"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=Jg-BRpn38L8"
+  },
+  "russian language": {
+    "name": "Джон Доу",
+    "bio": "Джон Доу родился...",
+    "timeline": [
+      {
+        "time": "1970-1975",
+        "description": "Начал играть на гитаре"
+      },
+      {
+        "time": "1976-1978",
+        "description": "Начал изучать космос"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=BBz-Jyr23M4"
+  },
+  "belarussian language": {
+    "name": "Джон Доў",
+    "bio": "Джон Доў нарадзіўся...",
+    "timeline": [
+      {
+        "time": "1970-1975",
+        "description": "Пачаў іграць на гітары"
+      },
+      {
+        "time": "1976-1978",
+        "description": "Пачаў займацца космасам"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=7gphiFVVtUI"
+  }
+}
