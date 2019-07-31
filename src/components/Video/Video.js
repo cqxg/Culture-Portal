@@ -1,5 +1,6 @@
 import React from "react"
 import ReactModal from "react-modal"
+import Youtube from "react-youtube"
 import { Link } from "gatsby"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Container, Row, Col, Button } from "reactstrap"
@@ -13,6 +14,7 @@ class Video extends React.Component {
     super(props)
     this.state = {
       isModalOpen: false,
+      videoId: props.videoId
     }
   }
 
@@ -27,9 +29,9 @@ class Video extends React.Component {
   render() {
     return (
       <>
-        <Col>
+        <Col lg={12} className={videoStyles.video}>
           <h1>Youtube</h1>
-          <Button variant="primary" onClick={this.handleModalOpen}>
+          <Button variant="primary" onClick={this.handleModalOpen} size="lg">
             Watch the video
           </Button>
         </Col>
@@ -41,8 +43,7 @@ class Video extends React.Component {
           className={videoStyles.modal}
           overlayClassName={videoStyles.overlay}
         >
-          <h2>Video</h2>
-          <button onClick={this.handleModalClose}>Close Modal</button>
+          <Youtube className={videoStyles.youtube} videoId={this.state.videoId} />
         </ReactModal>
       </>
     )

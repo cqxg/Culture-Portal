@@ -15,6 +15,7 @@ const director = {
   description:
     "loves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and music",
   link: "thisway",
+  videoId: 'u1QF-LWNUdY'
 }
 
 const Main = () => (
@@ -52,7 +53,7 @@ const Main = () => (
       <TopDirector director={director} />
     </Row>
     <Row>
-      <Video />
+      <Video videoId={director.videoId}/>
     </Row>
   </Container>
 )

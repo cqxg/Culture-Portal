@@ -1,12 +1,18 @@
 @import "../../mainStyles/_library.less";
-
+.video {
+    text-align: center;
+    button {
+        background: @color-red;
+    }
+}
 .modal {
     position: absolute;
-    top: 40px;
-    left: 40px;
-    right: 40px;
-    bottom: 40px;
-    background-color: papayawhip;
+    display:flex;
+    margin: 5% 10vw;
+    .youtube {
+        width: 80vw;
+        height: 80vh;
+    }
 }
 
 .overlay {
@@ -16,4 +22,17 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 5000ms ease-in-out;
+}
+    
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+    
+.ReactModal__Overlay--before-close{
+    opacity: 0;
 }
