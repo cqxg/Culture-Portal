@@ -30,6 +30,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-modal": "^3.9.1",
+    "react-youtube": "^7.9.0",
     "reactstrap": "^8.0.1"
   },
   "devDependencies": {
