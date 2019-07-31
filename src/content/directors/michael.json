@@ -1,0 +1,80 @@
+{
+  "id": "michael",
+  "galleryImages": [
+    {
+      "image": "/images/uploads/image-1-.gif"
+    },
+    {
+      "image": "/images/uploads/image.gif"
+    }
+  ],
+  "en": {
+    "name": "Mic Mica",
+    "location": "Moscow",
+    "yearsOfLife": "20 september 1980 - 30 october 2002",
+    "bio": "He was born...",
+    "timeline": [
+      {
+        "time": "1995-1998",
+        "description": "director at Hollywood"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1997",
+        "filmName": "Titanic"
+      },
+      {
+        "filmYear": "1998",
+        "filmName": "Bambi"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=VztpFge0TKs"
+  },
+  "ru": {
+    "name": "Мик Мика",
+    "yearsOfLife": "20 сентября 1980 - 30 октября 2002",
+    "location": "Москва",
+    "bio": "Был рожден...",
+    "timeline": [
+      {
+        "time": "1995-1998",
+        "description": "режиссер в Голливуде"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1997",
+        "filmName": "Титаник"
+      },
+      {
+        "filmYear": "1998",
+        "filmName": "Бэмби"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=WwNdlu3Eac0"
+  },
+  "be": {
+    "name": "Мік Міка",
+    "yearsOfLife": "20 верасня 1980 - 30 кастрычніка 2002",
+    "location": "Масква",
+    "bio": "Быў народжаны...",
+    "timeline": [
+      {
+        "time": "1995-1998",
+        "description": "Рэжысёр у Галівудзе"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1997",
+        "filmName": "Тітанік"
+      },
+      {
+        "filmYear": "1998",
+        "filmName": "Бэмбі"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=WwNdlu3Eac0"
+  }
+}
