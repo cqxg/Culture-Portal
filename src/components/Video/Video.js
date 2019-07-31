@@ -35,7 +35,7 @@ class Video extends React.Component {
             Watch the video
           </Button>
         </Col>
-
+        
         <ReactModal
           isOpen={this.state.isModalOpen}
           onRequestClose={this.handleModalClose}
