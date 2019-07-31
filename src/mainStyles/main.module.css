@@ -2,4 +2,13 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e9e5dd;
+  color: #696464;
+}
+.main_container .main_description h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.main_container .main_description p {
+  text-align: justify;
 }

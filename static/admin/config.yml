@@ -8,7 +8,7 @@ public_folder: /uploads
 collections:
   - name: "director in English"
     label: "Director in English"
-    folder: "content/directors"
+    folder: "src/content/directors/en"
     create: true
     identifier_field: id
     format: json
@@ -36,7 +36,9 @@ collections:
        name: "galleryImages"
        widget: "list"
        fields:
-        - widget: image
+        - label: "Image"
+          name: "image"
+          widget: image
      - label: "Video"
        name: "video"
        widget: "string"

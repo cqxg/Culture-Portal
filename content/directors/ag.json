@@ -1,0 +1,28 @@
+{
+  "timeline": [
+    {
+      "time": "01.01.1919",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim sodales ut eu sem integer. "
+    },
+    {
+      "time": "01.01.1925",
+      "description": "Risus ultricies tristique nulla aliquet enim tortor at. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. "
+    },
+    {
+      "time": "01.01.1980",
+      "description": "Elit duis tristique sollicitudin nibh sit. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Non pulvinar neque laoreet suspendisse. Semper auctor neque vitae tempus quam. "
+    }
+  ],
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "galleryImages": [
+    {
+      "undefined": "/uploads/celtic-angel.jpg"
+    }
+  ],
+  "name": "Algerd Gedyminavich",
+  "years of live": "1200-1300",
+  "location": "https://www.google.com/maps/place/Navahrudak/@53.5956397,25.782762,13z/data=!3m1!4b1!4m8!1m2!7m1!2e1!3m4!1s0x46dec4f8ccff8b23:0x845631e9bbce8729!8m2!3d53.599025!4d25.8261108?hl=en",
+  "language": "en",
+  "video": "https://www.youtube.com/watch?v=Qu59cLEA4HQ",
+  "id": "AG"
+}

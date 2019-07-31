@@ -1,17 +1,24 @@
 import React from 'react';
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl';
 import Layout from '../components/Layouts/Layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
+import mainStyles from '../mainStyles/main.module.less';
 
 const IndexPage = ({ intl }) => {
-	return (
-		<Layout>
-			<Container>
+
+  return (
+    <Layout>
+			<Container className={mainStyles.main_container}>
 				<Row>
+					<Col lg={6} md={6} xs={12} className={mainStyles.main_description}>
+						<p>
+						<FormattedMessage id="index.description" />
+						</p>
+					</Col>
 					<Col lg={6} md={6} xs={12}>
 						<SEO
 							lang={intl.locale}
@@ -30,11 +37,6 @@ const IndexPage = ({ intl }) => {
 						<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
 							<Image />
 						</div>
-					</Col>
-					<Col lg={6} md={6} xs={12}>
-						<p>
-							<FormattedMessage id="index.description" />
-						</p>
 					</Col>
 				</Row>
 			</Container>
