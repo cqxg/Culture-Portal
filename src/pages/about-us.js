@@ -12,7 +12,7 @@ const AboutUs = ({ intl }) => (
 			lang={intl.locale}
 			title={intl.formatMessage({ id: "header.siteTitle" })}
 		/>
-		<Container className={aboutusStyles.container}>
+		<Container className={aboutusStyles.aboutus_container}>
 			<Row>
 				<Col lg={2}>
 					<h1>

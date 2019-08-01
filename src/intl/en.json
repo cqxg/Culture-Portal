@@ -32,5 +32,9 @@
     "helloDirectors": "Belarusian directors",
     "welcomeDirectors": "Welcome to Belarusian directors page",
     "welcomeDirector": "Welcome to Belarusian director page"
-  }
+	},
+	
+	"directorPage": {
+		"map": "Map"
+	}
 }
