@@ -1,0 +1,59 @@
+@import "../../mainStyles/_library.less";
+
+h2 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.45rem;
+  color: inherit;
+  font-family: -apple-system, 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  text-align: center; 
+  font-size: 2.25rem;
+  line-height: 1.1;
+}
+
+.developers_content {
+  margin-bottom: 50px;
+  .developer_block {
+    border: 1px solid rgb(216, 196, 194);
+    margin-bottom: 10px;
+    .developer_photo {
+      width: 100%;
+      height: auto;
+    }
+    .developer_information {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      a {
+        .git_photo {
+          height: 80px;
+          width: 80px;
+          border-radius: 50px;
+          transition: ease-in .3s;
+          &:hover {
+            box-shadow: -1px 3px 22px -10px rgba(153,46,36,1);
+          }
+        }
+      }
+      .developer_name {
+        text-transform: uppercase;
+        margin: 10px 0;
+        color: #696464;
+        font-size: 18px;
+      }
+      .developer_nickname {
+        margin: 10px 0;
+        color: #696464;
+        font-size: 16px;
+      }
+    }
+  }
+}
