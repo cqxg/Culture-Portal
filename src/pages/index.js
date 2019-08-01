@@ -3,6 +3,7 @@ import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl';
 import Layout from '../components/Layouts/Layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
+import Developer from '../components/Developers/Developer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
@@ -38,6 +39,14 @@ const IndexPage = ({ intl }) => {
 							<Image />
 						</div>
 					</Col>
+				</Row>
+				<Row>
+				<Col lg={12} md={12} xs={12}>
+					<h2>
+						<FormattedMessage id="index.titleDevelopers"/>
+					</h2>
+					<Developer />
+				</Col>
 				</Row>
 			</Container>
 		</Layout>
