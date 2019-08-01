@@ -32,7 +32,7 @@
     "react-helmet": "^5.2.1",
     "reactstrap": "^8.0.1",
     "react-modal": "^3.9.1",
-    "react-youtube": "^7.9.0",
+    "react-youtube": "^7.9.0"
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",
@@ -47,6 +47,7 @@
     "develop": "env-cmd ./.env.development gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
+    "startStas": "gatsby develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "lint": "eslint src/components",
