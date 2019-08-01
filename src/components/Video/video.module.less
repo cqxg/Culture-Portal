@@ -1,0 +1,32 @@
+@import '../../mainStyles/_library.less';
+
+@keyframes moving {
+    from {top: 100%}
+    to {top: 0%}
+}
+
+.video {
+    text-align: center;
+    button {
+        background: @color-red;
+    }
+}
+.modal {
+    position: absolute;
+    display:flex;
+    margin: 4% 10vw;
+    .youtube {
+        width: 80vw;
+        height: 80vh;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: moving 1s;
+}
