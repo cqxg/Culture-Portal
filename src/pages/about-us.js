@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import SEO from "../components/seo";
 import aboutusStyles from '../mainStyles/aboutus.module.less';
+import DirectorMap from '../components/Map/map';
 
 const AboutUs = ({ intl }) => (
   <Layout>
@@ -12,7 +13,7 @@ const AboutUs = ({ intl }) => (
 			lang={intl.locale}
 			title={intl.formatMessage({ id: "header.siteTitle" })}
 		/>
-		<Container className={aboutusStyles.container}>
+		<Container className={aboutusStyles.aboutus_container}>
 			<Row>
 				<Col lg={2}>
 					<h1>
@@ -79,6 +80,11 @@ const AboutUs = ({ intl }) => (
 					<Link to="/">
 						<FormattedMessage id="backHomePage" />
 					</Link>
+				</Col>
+			</Row>
+			<Row>
+				<Col>
+					<DirectorMap />
 				</Col>
 			</Row>
 		</Container>

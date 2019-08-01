@@ -8,13 +8,13 @@ import directorsStyles from '../mainStyles/directors.module.less';
 
 const Directors = ({ intl }) => (
   <Layout>
-		<Container className={directorsStyles.container}>
+		<Container className={directorsStyles.directors_container}>
+			<SEO
+				lang={intl.locale}
+				title={intl.formatMessage({ id: "directors.titleDirector" })}
+			/>
 			<Row>
-				<Col lg={12}>
-					<SEO
-						lang={intl.locale}
-						title={intl.formatMessage({ id: "directors.titleDirector" })}
-					/>
+				<Col lg={12} className={directorsStyles.mainTitle}>
 					<h1>
 						<FormattedMessage id="directors.helloDirectors" />
 					</h1>
