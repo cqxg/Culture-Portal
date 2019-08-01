@@ -25,6 +25,7 @@
     "gatsby-transformer-json": "^2.2.2",
     "gatsby-transformer-sharp": "^2.2.4",
     "leaflet": "^1.5.1",
+    "get-video-id": "^3.1.4",
     "less": "^3.9.0",
     "netlify-cms-app": "^2.9.7",
     "prop-types": "^15.7.2",
@@ -33,6 +34,8 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-leaflet": "^2.4.0",
+    "react-modal": "^3.9.1",
+    "react-youtube": "^7.9.0",
     "reactstrap": "^8.0.1"
   },
   "devDependencies": {
@@ -45,9 +48,10 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "env-cmd ./.env.development gatsby develop",
+    "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
+    "startStas": "gatsby develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "lint": "eslint src/components",

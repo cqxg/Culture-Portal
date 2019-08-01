@@ -1,0 +1,52 @@
+@import '../../mainStyles/_library.less';
+
+.directorOfDay_container {
+	color: @color-grey;
+	border: 2px solid @color-red;
+	margin: 0 1%;
+	.directorOfDay_title_container {
+		background: @color-red;
+		padding: 1% 2.6% 0 2.6%;
+		h2 {
+			color: @color-light;
+		}
+	}
+	.directorOfDay_content_container {
+		padding: 3% 1% 0 1%;
+		h3 {
+			margin: 0 0 3% 0;
+			color: @color-grey;
+		}
+		h4 {
+			margin: 0 0 3% 0;
+		}
+		@media only screen and (max-width: 768px) {
+			text-align: center;
+			h4 {
+				text-align: justify;
+			}
+		}
+		.contentButton {
+			display: inline-block;
+			margin: 0 0 4% 0;
+			@media only screen and (max-width: 768px) {
+				// display: flex;
+			}
+			button {
+				padding: 10% 40%;
+				background: @color-red;
+				@media only screen and (max-width: 768px) {
+					padding: 10% 40%;
+				}
+			}
+		}
+	}
+	.directorOfDay_container_content_img_resize {
+		margin: 0 auto;
+		width: 50%;
+		overflow: hidden;
+		img {
+			width: 100%;
+		}
+	}
+}
