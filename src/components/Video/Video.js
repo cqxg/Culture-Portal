@@ -7,6 +7,10 @@ import { Container, Row, Col, Button } from "reactstrap"
 import FormattedMessage from "gatsby-plugin-intl"
 import videoStyles from './video.module.less'
 
+function urlToId(url){
+  return url;
+}
+
 ReactModal.setAppElement("#___gatsby")
 
 class Video extends React.Component {
@@ -14,7 +18,7 @@ class Video extends React.Component {
     super(props)
     this.state = {
       isModalOpen: false,
-      videoId: props.videoId
+      videoId: urlToId(props.videoId)
     }
   }
 
