@@ -13,12 +13,12 @@
 
   "aboutUs": {
     "developers": {
-      "gregory": "Gregory",
-      "erika": "Erika",
-      "igor": "Igor",
-      "stas": "Stas",
-      "alina": "Alina",
-      "tatyana": "Tatyana"
+      "gregory": "Grigory Sidorin",
+      "alina": "Alina Tylets",
+      "erika": "Erika Shochalevich",
+      "stas": "Stanislav Barinov",
+      "igor": "Ihar Ivaniuk",
+      "tanya": "Tatsiana Shulha"
     },
     "aboutUs": "About us",
     "welcomeDevelopers": "Welcome to the developers page"
@@ -42,8 +42,8 @@
     "welcomeDirectors": "Welcome to Belarusian directors page",
     "welcomeDirector": "Welcome to Belarusian director page"
 	},
-	
+
 	"directorPage": {
 		"map": "Map"
-	}
+  }
 }
