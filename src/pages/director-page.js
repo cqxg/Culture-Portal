@@ -25,7 +25,7 @@ const Director = ({ intl, location }) => {
                 <Row>
                   <Col lg={6} md={6} xs={12}>
                     <p>
-                      {directorData[lang].bio}
+                      {directorData[lang] && directorData[lang].bio}
                     </p>
                   </Col>
                   <Col lg={6} md={6} xs={12}>
@@ -34,10 +34,10 @@ const Director = ({ intl, location }) => {
                       title={intl.formatMessage({ id: "directors.titleDirector" })}
                     />
                     <h1>
-                      {directorData[lang].name}
+                      {directorData[lang] && directorData[lang].name}
                     </h1>
                     <p>
-                      {directorData[lang].yearsOfLife}
+                      {directorData[lang] && directorData[lang].yearsOfLife}
                     </p>
                     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
                       <Image />
