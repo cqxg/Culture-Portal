@@ -12,6 +12,14 @@
   },
 
   "aboutUs": {
+    "developers": {
+      "gregory": "Grigory Sidorin",
+      "alina": "Alina Tylets",
+      "erika": "Erika Shochalevich",
+      "stas": "Stanislav Barinov",
+      "igor": "Ihar Ivaniuk",
+      "tanya": "Tatsiana Shulha"
+    },
     "aboutUs": "About us",
     "welcomeDevelopers": "Welcome to developers page"
   },
@@ -34,8 +42,8 @@
     "welcomeDirectors": "Welcome to Belarusian directors page",
     "welcomeDirector": "Welcome to Belarusian director page"
 	},
-	
+
 	"directorPage": {
 		"map": "Map"
-	}
+  }
 }
