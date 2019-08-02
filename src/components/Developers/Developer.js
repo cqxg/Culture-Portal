@@ -66,11 +66,11 @@ const DevelopersTeam = (props) => {
     return <Developer key={i} url={developer.url} name={developer.name} git={developer.git} href={developer.href} />
   });
 
-  return <Container className={developerStyles.developers_content}>
+  return <Col className={developerStyles.developers_content}>
             <Row>
               {developers}
             </Row>
-          </Container>
+          </Col>
 
 }
 
