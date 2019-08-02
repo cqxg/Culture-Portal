@@ -11,7 +11,7 @@ import { Container, Row, Col } from 'reactstrap';
 let directorData = {};
 
 const Director = ({ intl, location }) => {
-  if (location.state.directorData) {
+  if (location.state && location.state.directorData) {
     directorData = location.state.directorData;
   };
   return (
