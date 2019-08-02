@@ -4,6 +4,7 @@ import "../components/DirectorPersonalData";
 import Layout from '../components/Layouts/Layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
+import Time from '../components/Timeline/Timeline';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
@@ -49,6 +50,7 @@ const Director = ({ intl, location }) => {
           }
           }
         </IntlContextConsumer>
+        <Time />
       </Container>
     </Layout>
   )
