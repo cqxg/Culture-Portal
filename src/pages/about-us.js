@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import SEO from "../components/seo";
 import aboutusStyles from '../mainStyles/aboutus.module.less';
+import Developer from '../components/Developers/Developer';
 import DirectorMap from '../components/Map/map';
 
 const AboutUs = ({ intl }) => (
@@ -82,6 +83,11 @@ const AboutUs = ({ intl }) => (
 					</Link>
 				</Col>
 			</Row>
+			<Row>
+				<Col lg={12} md={12} xs={12}>
+					<Developer />
+				</Col>
+				</Row>
 			<Row>
 				<Col>
 					<DirectorMap />

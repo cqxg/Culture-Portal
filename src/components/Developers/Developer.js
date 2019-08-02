@@ -6,44 +6,44 @@ import developerStyles from './developer.module.less';
 const teamData = [
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "Name Surname",
-    git: "git_nock",
-    href: "https://github.com"
+    name: "Ihar Ivaniuk",
+    git: "cqxg",
+    href: "https://github.com/cqxg"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "Name Surname",
-    git: "git_nock",
-    href: "https://github.com"
+    name: "Erika Shochalevich",
+    git: "EriKuroi",
+    href: "https://github.com/EriKuroi"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "Name Surname",
-    git: "git_nock",
-    href: "https://github.com"
+    name: "Grigory Sidorin",
+    git: "GreRin",
+    href: "https://github.com/GreRin"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "Name Surname",
-    git: "git_nock",
-    href: "https://github.com"
+    name: "Alina Tylets",
+    git: "helpthewalrus",
+    href: "https://github.com/helpthewalrus"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "Name Surname",
-    git: "git_nock",
-    href: "https://github.com"
+    name: "Tatsiana Shulha",
+    git: "tanyashulha",
+    href: "https://github.com/tanyashulha"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "Name Surname",
-    git: "git_nock",
-    href: "https://github.com"
+    name: "Stanislav Barinov",
+    git: "Stassras",
+    href: "https://github.com/Stassras"
   }
 ];
 
 const Developer = (props) => ( 
-  <Col lg={2} md={6} xs={12}>
+  <Col lg={2} md={4} xs={12}>
     <div className={developerStyles.developer_block}>
       <img className={developerStyles.developer_photo} src={props.url}/>
       <div className={developerStyles.developer_information}>
