@@ -6,6 +6,7 @@ import Layout from "../components/Layouts/Layout";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import SEO from "../components/seo";
+import directorsStyles from '../mainStyles/directors.module.less';
 
 const Directors = ({ intl }) => {
   const directorsArray = [];
