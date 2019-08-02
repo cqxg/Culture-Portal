@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FormattedMessage } from "gatsby-plugin-intl";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import developerStyles from './developer.module.less';
 
 const teamData = [
@@ -44,10 +45,9 @@ const teamData = [
 ];
 
 const Developer = (props) => {
-  console.log(props.name);
   return (<Col lg={2} md={6} xs={12}>
     <div className={developerStyles.developer_block}>
-      <img className={developerStyles.developer_photo} src={props.url}/>
+      <img className={developerStyles.developer_photo} src={props.url} alt='developer-avatar'/>
       <div className={developerStyles.developer_information}>
         <p className={developerStyles.developer_name}>
           <FormattedMessage id={`${props.name}`} />
