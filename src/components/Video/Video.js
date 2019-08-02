@@ -1,24 +1,22 @@
-import React from "react"
-import ReactModal from "react-modal"
-import Youtube from "react-youtube"
-import { Link } from "gatsby"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { Container, Row, Col, Button } from "reactstrap"
-import FormattedMessage from "gatsby-plugin-intl"
-import videoStyles from './video.module.less'
+import React from "react";
+import ReactModal from "react-modal";
+import Youtube from "react-youtube";
+import getVideoId from "get-video-id";
+import { Link } from "gatsby";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col, Button } from "reactstrap";
+import FormattedMessage from "gatsby-plugin-intl";
 
-function urlToId(url){
-  return url;
-}
+import videoStyles from './video.module.less';
 
-ReactModal.setAppElement("#___gatsby")
+ReactModal.setAppElement("#___gatsby");
 
 class Video extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       isModalOpen: false,
-      videoId: urlToId(props.videoId)
+      url: props.videoUrl
     }
   }
 
@@ -47,11 +45,11 @@ class Video extends React.Component {
           className={videoStyles.modal}
           overlayClassName={videoStyles.overlay}
         >
-          <Youtube className={videoStyles.youtube} videoId={this.state.videoId} />
+          <Youtube className={videoStyles.youtube} videoId={getVideoId(this.state.url).id} />
         </ReactModal>
       </>
     )
   }
-}
+};
 
-export default Video
+export default Video;

@@ -1,20 +1,20 @@
-import React from "react"
-import { FormattedMessage, Link } from "gatsby-plugin-intl"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { Container, Row, Col, Button } from "reactstrap"
+import React from "react";
+import { FormattedMessage, Link } from "gatsby-plugin-intl";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col, Button } from "reactstrap";
 
-import directorOfDayStyles from "./directorOfDay.module.less"
+import directorOfDayStyles from "./directorOfDay.module.less";
 
-const director = {
-  name: "Evklid Seventeen",
-  birth: "30 january",
-  death: "23 june",
-  img: "ddas",
-  description:
-    "loves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and music",
-  link: "thisway",
-  videoId: 'u1QF-LWNUdY'
-}
+// const director = {
+//   name: "Evklid Seventeen",
+//   birth: "30 january",
+//   death: "23 june",
+//   img: "ddas",
+//   description:
+//     "loves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and musicloves write, drink, and music",
+//   link: "thisway",
+//   videoId: 'u1QF-LWNUdY'
+// }
 
 const DirectorOfDay = ({ director }) => (
   <Col className={directorOfDayStyles.directorOfDay_container}>
@@ -48,4 +48,4 @@ const DirectorOfDay = ({ director }) => (
   </Col>
 )
 
-export default DirectorOfDay
+export default DirectorOfDay;
