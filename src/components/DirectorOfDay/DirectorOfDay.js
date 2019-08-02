@@ -33,7 +33,7 @@ const DirectorOfDay = ({ director }) => (
       <Col md={7} xs={{ size: 12, order: 3 }}>
         <h4>{director.description}</h4>
         <Link to="/" className={directorOfDayStyles.contentButton}>
-          <Button variant="primary">Go</Button>
+          <Button variant="primary">More about</Button>
         </Link>
       </Col>
 
