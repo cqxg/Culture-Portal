@@ -1,0 +1,65 @@
+{
+  "id": "johnDoe",
+  "galleryImages": [
+    {
+      "image": "/images/uploads/dashuk.jpg"
+    }
+  ],
+  "en": {
+    "name": "John Doe",
+    "location": "LA",
+    "yearsOfLife": "1969 - 2010",
+    "bio": "House of the rising sun...",
+    "timeline": [
+      {
+        "time": "1980 - 1990",
+        "description": "flew over the nest"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1980",
+        "filmName": "Nest"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=9NSRyBSb62c"
+  },
+  "ru": {
+    "name": "Джон Доу",
+    "yearsOfLife": "1969 - 2010",
+    "location": "Лос-Анджелес",
+    "bio": "Дом восходящего солнца",
+    "timeline": [
+      {
+        "time": "1980 - 1990",
+        "description": "Пролетел над гнездом"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1980",
+        "filmName": "Гнездо"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=9NSRyBSb62c"
+  },
+  "be": {
+    "name": "Джон Доў",
+    "yearsOfLife": "1969 - 2010",
+    "location": "Лас-Анджэлес",
+    "bio": "Дом сонейка",
+    "timeline": [
+      {
+        "time": "1980 - 1990",
+        "description": "Праляцеў над гняздом"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1980",
+        "filmName": "Гняздо"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=9NSRyBSb62c"
+  }
+}

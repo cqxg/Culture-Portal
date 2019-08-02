@@ -5,9 +5,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import SEO from "../components/seo";
 import directorsStyles from '../mainStyles/directors.module.less';
+import directorsInfo from '../queries/allDirectorsJson';
 
-const Directors = ({ intl }) => (
-  <Layout>
+const Directors = ({ intl }) => {
+  const directorsInfoJson = directorsInfo();
+  const directorsInfoJSX = directorsInfoJson.allDirectorsJson.edges.map((node, index) => {
+    return (
+      <Row
+        key={index+1}>
+				<Col lg={12} className={directorsStyles.mainTitle}>
+          <Link
+            to='/director-page'
+            state={{ directorData: node.node }}
+          >
+            {`${node.node[intl.locale].name}, ${node.node[intl.locale].location}`}
+          </Link>
+				</Col>
+			</Row>
+    )
+  });
+
+  return (<Layout>
 		<Container className={directorsStyles.directors_container}>
 			<SEO
 				lang={intl.locale}
@@ -20,38 +38,7 @@ const Directors = ({ intl }) => (
 					</h1>
 				</Col>
 			</Row>
-			<Row>
-				<Col lg={2}>
-					<p>
-						<FormattedMessage id="directors.welcomeDirectors" />
-					</p>
-				</Col>
-				<Col lg={2}>
-					<p>
-						<FormattedMessage id="directors.welcomeDirectors" />
-					</p>
-				</Col>
-				<Col lg={2}>
-					<p>
-						<FormattedMessage id="directors.welcomeDirectors" />
-					</p>
-				</Col>
-				<Col lg={2}>
-					<p>
-						<FormattedMessage id="directors.welcomeDirectors" />
-					</p>
-				</Col>
-				<Col lg={2}>
-					<p>
-						<FormattedMessage id="directors.welcomeDirectors" />
-					</p>
-				</Col>
-				<Col lg={2}>
-					<p>
-						<FormattedMessage id="directors.welcomeDirectors" />
-					</p>
-				</Col>
-			</Row>
+      { directorsInfoJSX }
 			<Row>
 				<Col lg={12}>
 					<Link to="/">
@@ -66,6 +53,7 @@ const Directors = ({ intl }) => (
 			</Row>
 		</Container>
   </Layout>
-)
+  )
+}
 
 export default injectIntl(Directors);
