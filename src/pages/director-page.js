@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormattedMessage, injectIntl, IntlContextConsumer } from "gatsby-plugin-intl";
-import "../components/DirectorPersonalData";
+import "../queries/DirectorPersonalData";
 import Layout from '../components/Layouts/Layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
