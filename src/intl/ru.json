@@ -11,7 +11,15 @@
     "description": "You just hit a route that doesn't exist... the sadness."
   },
 
-  "aboutUs": {
+  "aboutUs": {    
+    "developers": {
+      "gregory": "Григорий",
+      "erika": "Эрика",
+      "igor": "Игорь",
+      "stas": "Стас",
+      "alina": "Алина",
+      "tatyana": "Татьяна"
+    },
     "aboutUs": "О нас",
     "welcomeDevelopers": "Добро пожаловать на страницу разработчиков"
   },

@@ -12,8 +12,16 @@
   },
 
   "aboutUs": {
+    "developers": {
+      "gregory": "Gregory",
+      "erika": "Erika",
+      "igor": "Igor",
+      "stas": "Stas",
+      "alina": "Alina",
+      "tatyana": "Tatyana"
+    },
     "aboutUs": "About us",
-    "welcomeDevelopers": "Welcome to developers page"
+    "welcomeDevelopers": "Welcome to the developers page"
   },
 
   "backHomePage": "Go back to the homepage",
