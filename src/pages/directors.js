@@ -1,28 +1,29 @@
 import React from "react";
 import { Link, injectIntl, IntlContextConsumer } from "gatsby-plugin-intl";
 import { StaticQuery, graphql } from 'gatsby';
-
+import "../components/DirectorPersonalData";
 import Layout from "../components/Layouts/Layout";
 import SEO from "../components/seo";
 import '../mainStyles/directors.less';
 
-
 const Directors = ({ intl }) => {
-  const getNames = (data, lang) => {
+  const directorsArray = [];
+  const getData = (data, lang) => {
     const namesArray = [];
     data.allDirectorsJson.edges.forEach((element, index) => {
-      console.log(element.node.id);
+      directorsArray.push(element.node);
       namesArray.push(
-      <Link 
-      key={index+1} 
-      to='/director-page/'
-      state={{id: element.node.id}}
-      >
-      {element.node[lang].name}
-      </Link>)
+        <Link
+          key={index + 1}
+          to='/director-page/'
+          state={{ directorData: element.node }}
+        >
+          {element.node[lang].name}
+        </Link>)
     });
     return namesArray;
   };
+  
   return (
     <Layout>
       <SEO
@@ -32,7 +33,6 @@ const Directors = ({ intl }) => {
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) => {
           const lang = currentLocale;
-          console.log(lang);          
           return <StaticQuery
             query={graphql`
         query NamesQuery {
@@ -40,13 +40,13 @@ const Directors = ({ intl }) => {
             edges {
               node {
                 be {
-                  name
+                  ...DirectorPersonalDataBe
                 }
                 en {
-                  name
+                  ...DirectorPersonalDataEn    
                 }
                 ru {
-                  name
+                  ...DirectorPersonalDataRu
                 }
                 id
               }
@@ -57,7 +57,7 @@ const Directors = ({ intl }) => {
             render={data => (
               <>
                 <div className="directors">
-                  {getNames(data, lang)}
+                  {getData(data, lang)}
                 </div>
               </>
             )}
