@@ -22,7 +22,8 @@
     "hello": "Main page",
     "welcome": "Welcome to Belarusian Directors Culture Portal",
     "build": "Now go build something great",
-    "description": "Demonstration of films in Belarus began at the end of the XIX century. At the beginning of the 20th century, 56 private cinemas operated. The first cinema in Minsk was opened in 1900 by businessman Richard Stremer at the Rakovschik\u2019s house on Zakharyevskaya Street. Initially, it showed slides, then silent films. In 1908, Richard himself began to shoot documentary films. At the same time, the chronicle film \u201CThe Polish Temple Festival in Kalvariya in Minsk\u201D was shot, and the cameramen of the Minsk Giant cinema made their films in 1910-1912.\r\nOn December 17, 1924, on the basis of the resolution of the Council of People's Commissars of the BSSR \u201COn the Settlement of the Filmmaking of the BSSR\u201D, the Directorate of Cinema Affairs was established under the People\u2019s Commissariat of Education of the BSSR - Belgoskino (this date is celebrated as the Day of Belarusian Cinema).\r\nWe decided to dedicate this portal to the most outstanding, in our opinion, directors of Belarus.\r"
+    "description": "Demonstration of films in Belarus began at the end of the XIX century. At the beginning of the 20th century, 56 private cinemas operated. The first cinema in Minsk was opened in 1900 by businessman Richard Stremer at the Rakovschik\u2019s house on Zakharyevskaya Street. Initially, it showed slides, then silent films. In 1908, Richard himself began to shoot documentary films. At the same time, the chronicle film \u201CThe Polish Temple Festival in Kalvariya in Minsk\u201D was shot, and the cameramen of the Minsk Giant cinema made their films in 1910-1912.\r\nOn December 17, 1924, on the basis of the resolution of the Council of People's Commissars of the BSSR \u201COn the Settlement of the Filmmaking of the BSSR\u201D, the Directorate of Cinema Affairs was established under the People\u2019s Commissariat of Education of the BSSR - Belgoskino (this date is celebrated as the Day of Belarusian Cinema).\r\nWe decided to dedicate this portal to the most outstanding, in our opinion, directors of Belarus.\r",
+    "titleDevelopers": "Site was made by a team of six developers"
   },
 
   "toDirector": "To the director's page",
@@ -32,5 +33,9 @@
     "helloDirectors": "Belarusian directors",
     "welcomeDirectors": "Welcome to Belarusian directors page",
     "welcomeDirector": "Welcome to Belarusian director page"
-  }
+	},
+	
+	"directorPage": {
+		"map": "Map"
+	}
 }

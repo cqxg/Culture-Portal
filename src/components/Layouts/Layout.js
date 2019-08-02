@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from "../Header/Header";
+// import DirectorMap from "../Map/Map";
 import Footer from "../Footer/Footer";
 import mainStyles from '../../mainStyles/main.module.less';
 import "./layout.less";
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
 			<div className={mainStyles.content}>
 				<Header />
 				<main className={mainStyles.main}>{children}</main>
+				{/* <DirectorMap /> */}
 			</div>
 			<Footer />
     </div>
