@@ -11,7 +11,7 @@
     "description": "You just hit a route that doesn't exist... the sadness."
   },
 
-  "aboutUs": {
+  "aboutUs": {    
     "developers": {
       "gregory": "Григорий Сидорин",
       "alina": "Алина Тылец",

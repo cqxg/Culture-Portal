@@ -1,7 +1,6 @@
 import React from 'react';
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl';
 import Layout from '../components/Layouts/Layout';
-import Developer from '../components/Developers/Developer';
 import DirectorOfDay from '../components/DirectorOfDay/DirectorOfDay';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,14 +30,6 @@ const IndexPage = ({ intl }) => {
 						</p>
 					</Col>
 					<DirectorOfDay director={ director }/>
-				</Row>
-				<Row>
-				<Col lg={12} md={12} xs={12}>
-					<h2>
-						<FormattedMessage id="index.titleDevelopers"/>
-					</h2>
-					<Developer />
-				</Col>
 				</Row>
 			</Container>
 		</Layout>
