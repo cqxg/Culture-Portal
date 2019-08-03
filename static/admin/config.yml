@@ -17,6 +17,7 @@ collections:
     fields:
      - {label: "ID", name: id, widget: "string"}
      - {label: "Avatar/Аватар/Аватар", name: "image", widget: image}
+     - {label: "Location pin", name: "locationPin", widget: "string"}
      - label: "Gallery/Галерея/Галерэя"
        name: "galleryImages"
        widget: "list"
@@ -32,7 +33,6 @@ collections:
         - {label: "Years of life", name: "yearsOfLife", widget: "string"}
         - {label: "Location", name: "location", widget: "string"}
         - {label: "Bio", name: "bio", widget: "markdown"}
-        - {label: "Location pin", name: "locationPin", widget: "string"}
         - label: "Timeline"
           name: "timeline"
           widget: "list"
@@ -66,7 +66,6 @@ collections:
         - {label: "Годы жизни", name: "yearsOfLife", widget: "string"}
         - {label: "Место", name: "location", widget: "string"}
         - {label: "Биография", name: "bio", widget: "markdown"}
-        - {label: "Место на карте", name: "locationPin", widget: "string"}
         - label: "Хронология"
           name: "timeline"
           widget: "list"
@@ -100,7 +99,6 @@ collections:
         - {label: "Гады жыцця", name: "yearsOfLife", widget: "string"}
         - {label: "Месца", name: "location", widget: "string"}
         - {label: "Біяграфія", name: "bio", widget: "markdown"}
-        - {label: "Месца на карце", name: "locationPin", widget: "string"}
         - label: "Храналогія"
           name: "timeline"
           widget: "list"
