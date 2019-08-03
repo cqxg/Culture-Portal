@@ -7,6 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 import SEO from "../components/seo";
 import directorsStyles from '../mainStyles/directors.module.less';
 import directorsInfo from '../queries/allDirectorsJson';
+import SearchBar from '../components/Search/search.jsx';
 
 const Directors = ({ intl }) => {
     const directorsInfoJson = directorsInfo().allDirectorsJson.edges.map(node => node.node);
@@ -33,9 +34,7 @@ const Directors = ({ intl }) => {
                 </Col>
             </Row>
             <Row>
-                <Col lg={12}>
-                    insert search form here
-                </Col>
+                <SearchBar />
             </Row>
             {directorsAfterSearch.map((director, index) => <DirectorListItem
                 directorData={director}
