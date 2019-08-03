@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import SEO from "../components/seo";
 import directorsStyles from '../mainStyles/directors.module.less';
 import directorsInfo from '../queries/allDirectorsJson';
+import SearchBar from '../components/Search/search.jsx';
 
 const Directors = ({ intl }) => {
   const directorsInfoJson = directorsInfo();
@@ -14,12 +15,12 @@ const Directors = ({ intl }) => {
       <Row
         key={index+1}>
 				<Col lg={12} className={directorsStyles.mainTitle}>
-          <Link
-            to='/director-page'
-            state={{ directorData: node.node }}
-          >
-            {`${node.node[intl.locale].name}, ${node.node[intl.locale].location}`}
-          </Link>
+                    <Link
+                        to='/director-page'
+                        state={{ directorData: node.node }}
+                    >
+                        {`${node.node[intl.locale].name}, ${node.node[intl.locale].location}`}
+                    </Link>
 				</Col>
 			</Row>
     )
@@ -38,6 +39,9 @@ const Directors = ({ intl }) => {
 					</h1>
 				</Col>
 			</Row>
+
+            <SearchBar />
+
       { directorsInfoJSX }
 			<Row>
 				<Col lg={12}>
