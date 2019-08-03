@@ -23,7 +23,7 @@ const DirectorOfDay = ({ intl, director, locale }) => {
                 <Col md={6} xs={{ size: 12, order: 3 }}>
                     <h4>{director[intl.locale].bio}</h4>
                     <Link to="/" className={directorOfDayStyles.contentButton}>
-                        <Button type="button" className="btn btn-secondary btn-block">
+                        <Button variant='primary' size='lg' block>
                             <FormattedMessage id="index.more" />
                         </Button>
                     </Link>
