@@ -41,7 +41,6 @@ const Director = ({ intl, location }) => {
                       {directorData[lang] && directorData[lang].yearsOfLife}
                     </p>
                     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-                      <Image src={`${directorData.galleryImages[0].image.slice(8)}`} />
                     </div>
                   </Col>
                 </Row>
