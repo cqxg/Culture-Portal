@@ -3,7 +3,7 @@ backend:
   branch: master
 
 media_folder: src/images/uploads
-public_folder: images/uploads
+public_folder: /uploads
 
 collections:
   - label: "Director"
@@ -16,6 +16,8 @@ collections:
     filter: {field: "language", value: "en"}
     fields:
      - {label: "ID", name: id, widget: "string"}
+     - {label: "Avatar/Аватар/Аватар", name: "image", widget: image}
+     - {label: "Location pin", name: "locationPin", widget: "string"}
      - label: "Gallery/Галерея/Галерэя"
        name: "galleryImages"
        widget: "list"
@@ -28,8 +30,8 @@ collections:
        widget: "object"
        fields:
         - {label: "Name", name: "name", widget: "string"}
-        - {label: "Location", name: "location", widget: "string"}
         - {label: "Years of life", name: "yearsOfLife", widget: "string"}
+        - {label: "Location", name: "location", widget: "string"}
         - {label: "Bio", name: "bio", widget: "markdown"}
         - label: "Timeline"
           name: "timeline"
