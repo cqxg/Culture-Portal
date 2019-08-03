@@ -34,9 +34,7 @@ const Directors = ({ intl }) => {
                 </Col>
             </Row>
             <Row>
-                <Col lg={12}>
-                    insert search form here
-                </Col>
+                <SearchBar />
             </Row>
             {directorsAfterSearch.map((director, index) => <DirectorListItem
                 directorData={director}

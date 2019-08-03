@@ -4,6 +4,7 @@
 }
 .search_form input {
   border-radius: 0;
+  width: 240px;
 }
 #search_form_button {
   border-radius: 0 !important;
