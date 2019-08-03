@@ -3,7 +3,7 @@ backend:
   branch: master
 
 media_folder: src/images/uploads
-public_folder: images/uploads
+public_folder: /uploads
 
 collections:
   - label: "Director"
@@ -16,6 +16,7 @@ collections:
     filter: {field: "language", value: "en"}
     fields:
      - {label: "ID", name: id, widget: "string"}
+     - {label: "Avatar/Аватар/Аватар", name: "image", widget: image}
      - label: "Gallery/Галерея/Галерэя"
        name: "galleryImages"
        widget: "list"
@@ -28,9 +29,10 @@ collections:
        widget: "object"
        fields:
         - {label: "Name", name: "name", widget: "string"}
-        - {label: "Location", name: "location", widget: "string"}
         - {label: "Years of life", name: "yearsOfLife", widget: "string"}
+        - {label: "Location", name: "location", widget: "string"}
         - {label: "Bio", name: "bio", widget: "markdown"}
+        - {label: "Location pin", name: "locationPin", widget: "string"}
         - label: "Timeline"
           name: "timeline"
           widget: "list"
@@ -64,6 +66,7 @@ collections:
         - {label: "Годы жизни", name: "yearsOfLife", widget: "string"}
         - {label: "Место", name: "location", widget: "string"}
         - {label: "Биография", name: "bio", widget: "markdown"}
+        - {label: "Место на карте", name: "locationPin", widget: "string"}
         - label: "Хронология"
           name: "timeline"
           widget: "list"
@@ -97,6 +100,7 @@ collections:
         - {label: "Гады жыцця", name: "yearsOfLife", widget: "string"}
         - {label: "Месца", name: "location", widget: "string"}
         - {label: "Біяграфія", name: "bio", widget: "markdown"}
+        - {label: "Месца на карце", name: "locationPin", widget: "string"}
         - label: "Храналогія"
           name: "timeline"
           widget: "list"
