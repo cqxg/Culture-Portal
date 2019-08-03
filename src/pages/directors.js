@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 import SEO from "../components/seo";
 import directorsStyles from '../mainStyles/directors.module.less';
 import directorsInfo from '../queries/allDirectorsJson';
-import SearchBar from '../components/Search/search.jsx';
+import SearchBar from '../components/Search/SearchBar';
 
 const Directors = ({ intl }) => {
     const directorsInfoJson = directorsInfo().allDirectorsJson.edges.map(node => node.node);
