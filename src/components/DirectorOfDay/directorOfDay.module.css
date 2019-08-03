@@ -1,14 +1,37 @@
 .directorOfDay_container {
   color: #696464;
   border: 2px solid #992e24;
-  margin: 0 1%;
+  margin: 0 0 1% 0;
+  height: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .directorOfDay_container {
+    margin: 0 0 5% 0;
+  }
 }
 .directorOfDay_container .directorOfDay_title_container {
   background: #992e24;
-  padding: 1% 2.6% 0 2.6%;
+  padding: 1% 2.6% 1% 2.6%;
 }
 .directorOfDay_container .directorOfDay_title_container h2 {
   color: #e9e5dd;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  .directorOfDay_container .directorOfDay_title_container {
+    text-align: center;
+  }
+  .directorOfDay_container .directorOfDay_title_container h2 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 310px) {
+  .directorOfDay_container .directorOfDay_title_container {
+    justify-content: center;
+  }
+  .directorOfDay_container .directorOfDay_title_container h2 {
+    font-size: 2.0rem;
+  }
 }
 .directorOfDay_container .directorOfDay_content_container {
   padding: 3% 1% 0 1%;
@@ -22,6 +45,7 @@
 }
 @media only screen and (max-width: 768px) {
   .directorOfDay_container .directorOfDay_content_container {
+    margin: 3%;
     text-align: center;
   }
   .directorOfDay_container .directorOfDay_content_container h4 {
@@ -34,17 +58,20 @@
 }
 .directorOfDay_container .directorOfDay_content_container .contentButton {
   display: flex;
+  justify-content: center;
   margin: 0 0 4% 0;
   text-decoration: none;
 }
 .directorOfDay_container .directorOfDay_content_container .contentButton button {
   font-size: 1.38rem;
+  color: #e9e5dd;
   padding: 3% 20%;
   background: #992e24;
+  border: none;
 }
 @media only screen and (max-width: 768px) {
   .directorOfDay_container .directorOfDay_content_container .contentButton button {
-    padding: 3% 20%;
+    padding: 1.5% 20%;
   }
 }
 .directorOfDay_container .directorOfDay_container_content_img_resize {

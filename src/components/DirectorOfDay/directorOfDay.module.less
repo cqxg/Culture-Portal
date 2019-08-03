@@ -3,12 +3,29 @@
 .directorOfDay_container {
 	color: @color-grey;
 	border: 2px solid @color-red;
-	margin: 0 1%;
+	margin: 0 0 1% 0;
+	height: 100%;
+	@media only screen and (max-width: 991px) {
+		margin: 0 0 5% 0;
+	}
 	.directorOfDay_title_container {
 		background: @color-red;
-		padding: 1% 2.6% 0 2.6%;
+		padding: 1% 2.6% 1% 2.6%;
 		h2 {
 			color: @color-light;
+			margin: 0;
+		}
+		@media only screen and (max-width: 768px) {
+			text-align: center;
+			h2 {
+				font-size: 2rem;
+			}
+		}
+		@media only screen and (max-width: 310px) {
+			justify-content: center;
+			h2 {
+				font-size: 2.0rem;
+			}
 		}
 	}
 	.directorOfDay_content_container {
@@ -21,6 +38,7 @@
 			margin: 0 0 3% 0;
 		}
 		@media only screen and (max-width: 768px) {
+			margin: 3%;
 			text-align: center;
 			h4 {
 				text-align: justify;
@@ -32,17 +50,17 @@
 		}
 		.contentButton {
 			display: flex;
-			
+			justify-content: center;
 			margin: 0 0 4% 0;
 			text-decoration: none;
-			@media only screen and (max-width: 768px) {
-			}
 			button {
 				font-size: 1.38rem;
+				color: @color-light;
 				padding: 3% 20%;
 				background: @color-red;
+				border: none;
 				@media only screen and (max-width: 768px) {
-					padding: 3% 20%;
+					padding: 1.5% 20%;
 				}
 			}
 		}

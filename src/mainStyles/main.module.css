@@ -12,6 +12,16 @@ main {
 .main_container .main_description p {
   text-align: justify;
 }
+@media only screen and (max-width: 310px) {
+  .main_container .main_description p {
+    padding: 0 3%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main_container .main_description {
+    padding: 0;
+  }
+}
 .wrapper {
   display: flex;
   flex-direction: column;

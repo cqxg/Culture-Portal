@@ -22,18 +22,18 @@ const IndexPage = ({ intl }) => {
 
   return (
     <Layout>
-			<Container className={mainStyles.main_container}>
-				<Row>
-					<Col lg={5} md={12} xs={12} className={mainStyles.main_description}>
-						<p>
-						<FormattedMessage id="index.description" />
-						</p>
-					</Col>
-					<DirectorOfDay director={ director }/>
-				</Row>
-			</Container>
-		</Layout>
-	)
+            <Container className={mainStyles.main_container}>
+                <Row>
+                    <Col lg={5} md={12} xs={12} className={mainStyles.main_description}>
+                        <p>
+                        <FormattedMessage id="index.description" />
+                        </p>
+                    </Col>
+                    <DirectorOfDay director={ director }/>
+                </Row>
+            </Container>
+        </Layout>
+    )
 }
 
 

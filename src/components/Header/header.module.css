@@ -44,4 +44,53 @@ header .header_container .languages {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 0;
+}
+@media only screen and (max-width: 991px) {
+  header .col_title,
+  header .nav_menu,
+  header .languages {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 310px) {
+  header {
+    padding: 0;
+  }
+  header .header_container {
+    padding: 5%;
+  }
+  header h1 {
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  header .languages {
+    margin: 2% 0;
+  }
+  header .nav_menu_row {
+    justify-content: center;
+  }
+  header .nav_menu {
+    justify-content: space-around !important;
+  }
+  header .nav_list {
+    width: 100%;
+    justify-content: space-around !important;
+  }
+  header .nav_list li .nav_Item {
+    text-align: center !important;
+    margin: 0 !important;
+  }
+  header .nav_list li .nav_Item span {
+    justify-content: center !important;
+  }
 }
