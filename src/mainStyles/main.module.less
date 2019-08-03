@@ -9,7 +9,6 @@ main {
 }
 
 .main_container {
-
 	.main_description {
 		h2 {
 			text-align: left;
@@ -17,6 +16,12 @@ main {
 		}
 		p {
 			text-align: justify;
+			@media only screen and (max-width: 310px) {
+				padding: 0 3%;
+			}
+		}
+		@media only screen and (max-width: 991px) {
+			padding: 0;
 		}
 	}
 }
