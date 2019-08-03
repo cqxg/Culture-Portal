@@ -39,6 +39,9 @@ const Directors = ({ intl }) => {
 					</h1>
 				</Col>
 			</Row>
+
+            <SearchBar />
+
       { directorsInfoJSX }
 			<Row>
 				<Col lg={12}>
