@@ -15,38 +15,41 @@ collections:
     extension: json
     filter: {field: "language", value: "en"}
     fields:
-     - {label: "ID", name: id, widget: "string"}
-     - {label: "Avatar/Аватар/Аватар", name: "image", widget: image}
-     - {label: "Location pin", name: "locationPin", widget: "string"}
+     - {label: "ID", name: id, widget: "string", hint: "Format: 'name-lastname', e.g. 'john-doe'"}
+     - {label: "Avatar/Аватар/Аватар", name: "image", widget: "image", default: "/uploads/anonymous.png",  pattern: ["jpeg|jpg|png", "Images should be of jpeg/jpg/png formats"]}
+     - {label: "Location pin", name: "locationPin", widget: "map", hint: "Choose a place on map related to the director"}
      - label: "Gallery/Галерея/Галерэя"
        name: "galleryImages"
        widget: "list"
        fields:
         - label: "Image/Изображение/Малюнак"
           name: "image"
-          widget: image
+          widget: "image"
+          pattern: ["jpeg|jpg|png", "Images should be of jpeg/jpg/png formats"]
      - label: "English language"
        name: "en"
        widget: "object"
        fields:
-        - {label: "Name", name: "name", widget: "string"}
-        - {label: "Years of life", name: "yearsOfLife", widget: "string"}
-        - {label: "Location", name: "location", widget: "string"}
-        - {label: "Bio", name: "bio", widget: "markdown"}
+        - {label: "Name", name: "name", widget: "string", hint: "Enter the director's name and surname, e.g. 'John Doe'"}
+        - {label: "Years of life", name: "yearsOfLife", widget: "string", hint: "Enter years of life, e.g. '1 January 1980 - 31 December 2010'"}
+        - {label: "Location", name: "location", widget: "string", hint: "Enter the director's place of birth, e.g. 'Minsk'"}
+        - {label: "Bio", name: "bio", widget: "markdown", hint: "Enter a brief description of the director"}
         - label: "Timeline"
           name: "timeline"
           widget: "list"
+          hint: "Enter director's life events in the chronological order in the format 'year(s) - events'"
           fields:
             - label: "Time"
               name: "time"
               widget: "string"
-              default: "1980"
+              default: "1980 - 1985"
             - label: "Description"
               name: "description"
               widget: "string"
         - label: "Films"
           name: "films"
           widget: "list"
+          hint: "Enter director's films in the chronological order in the format 'year(s) - film'"
           fields:
             - label: "Year of film"
               name: "filmYear"
@@ -58,28 +61,31 @@ collections:
         - label: "Video"
           name: "video"
           widget: "string"
+          hint: "Enter a link to the director's video or video about the director"
      - label: "Русский язык"
        name: "ru"
        widget: "object"
        fields:
-        - {label: "Имя", name: "name", widget: "string"}
-        - {label: "Годы жизни", name: "yearsOfLife", widget: "string"}
-        - {label: "Место", name: "location", widget: "string"}
-        - {label: "Биография", name: "bio", widget: "markdown"}
+        - {label: "Имя", name: "name", widget: "string", hint: "Введите имя и фамилию режиссера, например, 'Иван Иванов'"}
+        - {label: "Годы жизни", name: "yearsOfLife", widget: "string", hint: "Введите годы жизни, например, '1 января 1980 - 31 декабря 2010'"}
+        - {label: "Место", name: "location", widget: "string", hint: "Введите место рождения режиссера, например, 'Минск'"}
+        - {label: "Биография", name: "bio", widget: "markdown", hint: "Введите краткое описание режиссера"}
         - label: "Хронология"
           name: "timeline"
           widget: "list"
+          hint: "Введите основные события в хронологической последовательности в формате 'год(ы) - события'"
           fields:
             - label: "Время"
               name: "time"
               widget: "string"
-              default: "1980"
+              default: "1980 - 1985"
             - label: "Описание"
               name: "description"
               widget: "string"
         - label: "Фильмография"
           name: "films"
           widget: "list"
+          hint: "Введите фильмы режиссера в хронологической последовательности в формате 'год(ы) - фильм'"
           fields:
             - label: "Год выхода фильма"
               name: "filmYear"
@@ -91,17 +97,19 @@ collections:
         - label: "Видео"
           name: "video"
           widget: "string"
+          hint: "Введите ссылку на видео режиссера или видео о нем"
      - label: "Беларуская мова"
        name: "be"
        widget: "object"
        fields:
-        - {label: "Імя", name: "name", widget: "string"}
-        - {label: "Гады жыцця", name: "yearsOfLife", widget: "string"}
-        - {label: "Месца", name: "location", widget: "string"}
-        - {label: "Біяграфія", name: "bio", widget: "markdown"}
+        - {label: "Імя", name: "name", widget: "string", hint: "Калі ласка, увядзіце імя і прозвішча рэжысёра, напрыклад, 'Іван Іваноў'"}
+        - {label: "Гады жыцця", name: "yearsOfLife", widget: "string", hint: "Увядзіце гады жыцця, напрыклад, '1 студзеня 1980 - 31 снежня 2010'"}
+        - {label: "Месца", name: "location", widget: "string", hint: "Увядзіце месца нараджэння рэжысёра, напрыклад, 'Мінск'"}
+        - {label: "Біяграфія", name: "bio", widget: "markdown", hint: "Калі ласка, увядзіце кароткае апісанне рэжысёра"}
         - label: "Храналогія"
           name: "timeline"
           widget: "list"
+          hint: "Увядзіце асноўныя падзеі ў храналагічнай паслядоўнасці ў фармаце 'год(гады) - падзеі'"
           fields:
             - label: "Час"
               name: "time"
@@ -113,6 +121,7 @@ collections:
         - label: "Фільмаграфія"
           name: "films"
           widget: "list"
+          hint: "Увядзіце фільмы рэжысёра ў храналагічнай паслядоўнасці ў фармаце 'год(гады) - фільм'"
           fields:
             - label: "Год выхаду фільма"
               name: "filmYear"
@@ -124,3 +133,4 @@ collections:
         - label: "Відэа"
           name: "video"
           widget: "string"
+          hint: "Калі ласка, увядзіце спасылку на відэа рэжысёра ці відэа аб ім"
