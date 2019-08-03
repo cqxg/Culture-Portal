@@ -36,7 +36,8 @@
     "react-leaflet": "^2.4.0",
     "react-modal": "^3.9.1",
     "react-youtube": "^7.9.0",
-    "reactstrap": "^8.0.1"
+    "reactstrap": "^8.0.1",
+    "vertical-timeline-component-for-react": "^1.0.6"
   },
   "devDependencies": {
     "env-cmd": "^9.0.3",

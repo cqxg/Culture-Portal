@@ -2,52 +2,52 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FormattedMessage } from "gatsby-plugin-intl";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import developerStyles from './developer.module.less';
 
 const teamData = [
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
     name: "aboutUs.developers.gregory",
-    git: "git_nock",
-    href: "https://github.com"
-  },
-  {
-    url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "aboutUs.developers.alina",
-    git: "git_nock",
-    href: "https://github.com"
-  },
-  {
-    url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
-    name: "aboutUs.developers.stas",
-    git: "git_nock",
-    href: "https://github.com"
+    git: "GreRin",
+    href: "https://github.com/GreRin"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
     name: "aboutUs.developers.erika",
-    git: "git_nock",
-    href: "https://github.com"
+    git: "EriKuroi",
+    href: "https://github.com/EriKuroi"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
     name: "aboutUs.developers.igor",
-    git: "git_nock",
-    href: "https://github.com"
+    git: "cqxg",
+    href: "https://github.com/cqxg"
+  },
+  {
+    url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
+    name: "aboutUs.developers.stas",
+    git: "Stassras",
+    href: "https://github.com/Stassras"
+  },
+  {
+    url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
+    name: "aboutUs.developers.alina",
+    git: "helpthewalrus",
+    href: "https://github.com/helpthewalrus"
   },
   {
     url: "https://www.meme-arsenal.com/memes/4808db7e65492b7233abf5fb753ab0a4.jpg",
     name: "aboutUs.developers.tanya",
-    git: "git_nock",
-    href: "https://github.com"
+    git: "tanyashulha",
+    href: "https://github.com/tanyashulha"
   }
 ];
 
 const Developer = (props) => {
-  console.log(props.name);
   return (<Col lg={2} md={6} xs={12}>
     <div className={developerStyles.developer_block}>
-      <img className={developerStyles.developer_photo} src={props.url}/>
+      <img className={developerStyles.developer_photo} src={props.url} alt='developer-avatar'/>
       <div className={developerStyles.developer_information}>
         <p className={developerStyles.developer_name}>
           <FormattedMessage id={`${props.name}`} />
@@ -66,11 +66,11 @@ const DevelopersTeam = (props) => {
     return <Developer key={i} url={developer.url} name={developer.name} git={developer.git} href={developer.href} />
   });
 
-  return <Container className={developerStyles.developers_content}>
+  return <Col className={developerStyles.developers_content}>
             <Row>
               {developers}
             </Row>
-          </Container>
+          </Col>
 
 }
 

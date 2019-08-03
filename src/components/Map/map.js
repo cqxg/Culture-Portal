@@ -3,7 +3,7 @@ import { FormattedMessage } from 'gatsby-plugin-intl';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 
-// import 'leaflet/dist/leaflet.css';
+import 'leaflet/dist/leaflet.css';
 import mapStyles from './map.module.less';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
