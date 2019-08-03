@@ -16,7 +16,7 @@ collections:
     filter: {field: "language", value: "en"}
     fields:
      - {label: "ID", name: id, widget: "string", hint: "Format: 'name-lastname', e.g. 'john-doe'"}
-     - {label: "Avatar/Аватар/Аватар", name: "image", widget: "image", default: "/images/anonymous.png",  pattern: ["jpeg|jpg|png", "Images should be of jpeg/jpg/png formats"]}
+     - {label: "Avatar/Аватар/Аватар", name: "image", widget: "image", default: "/uploads/anonymous.png",  pattern: ["jpeg|jpg|png", "Images should be of jpeg/jpg/png formats"]}
      - {label: "Location pin", name: "locationPin", widget: "map", hint: "Choose a place on map related to the director"}
      - label: "Gallery/Галерея/Галерэя"
        name: "galleryImages"
