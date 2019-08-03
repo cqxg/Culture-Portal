@@ -1,7 +1,8 @@
 import React from "react";
-import { FormattedMessage, Link, injectIntl } from "gatsby-plugin-intl";
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
+import Carousel from '../components/Carousel/Carousel';
 
 import SEO from "../components/seo";
 import Layout from "../components/Layouts/Layout";
