@@ -2,7 +2,7 @@ import React from 'react';
 import { FormattedMessage, injectIntl, IntlContextConsumer } from "gatsby-plugin-intl";
 import "../queries/DirectorPersonalData";
 import Layout from '../components/Layouts/Layout';
-import Image from '../components/image';
+import Image from '../components/Image/Image';
 import SEO from '../components/seo';
 import Time from '../components/Timeline/Timeline';
 
@@ -19,7 +19,7 @@ const Director = ({ intl, location }) => {
     <Layout>
       <Container>
         <IntlContextConsumer>
-          {({ languages, language: currentLocale }) => {
+          {({ language: currentLocale }) => {
             const lang = currentLocale;
             return <>
               <div>
@@ -41,7 +41,7 @@ const Director = ({ intl, location }) => {
                       {directorData[lang] && directorData[lang].yearsOfLife}
                     </p>
                     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-                      <Image />
+                      <Image src={`${directorData.galleryImages[0].image.slice(8)}`} />
                     </div>
                   </Col>
                 </Row>
