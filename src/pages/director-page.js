@@ -60,11 +60,11 @@ const Director = ({ intl, location }) => {
                                         {directorData[intl.locale] && <Video url={directorData[intl.locale].video} />}
                                     </Col>
                                 </Row>
-                                {/* <Row>
+                                <Row>
                                     <Col size={12}>
                                         {directorData[intl.locale] && <DirectorMap></DirectorMap>}
                                     </Col>
-                                </Row> */}
+                                </Row>
                                 <Row className="mt-5">
                                     <Col size={12}>
                                         {directorData.galleryImages && directorData.galleryImages.length && <Carousel images={directorData.galleryImages} />}
