@@ -4,8 +4,9 @@ import { FormattedMessage } from 'gatsby-plugin-intl';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import tableStyles from './table.module.less';
 
-const FilmographyTable = (props) => {
-  const films = props.films.map((film, i) => {
+const FilmographyTable = ({filmsIncome}) => {
+  // console.log(filmsIncome)
+  const films = filmsIncome.map((film, i) => {
     return (
       <tr key={i} className={tableStyles.table_row}>
         <td>{film.filmName}</td>
@@ -28,12 +29,6 @@ const FilmographyTable = (props) => {
       {films}
     </tbody>
   </BootstrapTable>)
-}
+};
 
 export default FilmographyTable;
-
-// For director page  <Row>
-// <Col size={12}>
-// {directorData[intl.locale].films && directorData[intl.locale].films.length && <FilmographyTable films={directorData[intl.locale].films}/>}
-// </Col>
-// </Row>
