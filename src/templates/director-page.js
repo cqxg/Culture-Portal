@@ -8,6 +8,7 @@ import Timeline from "../components/Timeline/Timeline";
 import Video from '../components/Video/Video';
 import DirectorMap from '../components/DirectorMap/DirectorMap';
 import Carousel from '../components/Carousel/Carousel';
+import FilmographyTable from '../components/FilmographyTable/FilmographyTable';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
@@ -46,7 +47,12 @@ const DirectorTemplate = ({ data, intl }) => {
           </Col>
         </Row>
         <Row>
-          <Col size={12} style={{marginBottom: `60px`}}>
+          <Col size={12}>
+            {director[intl.locale] && director[intl.locale].films.length && <FilmographyTable filmsIncome={director[intl.locale].films} />}
+          </Col>
+        </Row>
+        <Row>
+          <Col size={12}>
             {director[intl.locale] && <Video url={director[intl.locale].video} />}
           </Col>
         </Row>
@@ -67,8 +73,8 @@ const DirectorTemplate = ({ data, intl }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    directorsJson(fields: { slug: { eq: $slug } }) {
-      id
+        directorsJson(fields: {slug: {eq: $slug } }) {
+        id
       image
       locationPin
       galleryImages {
@@ -77,50 +83,50 @@ export const query = graphql`
       en {
         name
         location
-        yearsOfLife
-        bio
+      yearsOfLife
+      bio
         timeline {
-          time
+        time
           description
-        }
-        films {
-          filmYear
-          filmName
-        }
-        video
       }
+        films {
+        filmYear
+          filmName
+      }
+      video
+    }
       ru {
         name
         location
-        yearsOfLife
-        bio
+      yearsOfLife
+      bio
         timeline {
-          time
+        time
           description
-        }
-        films {
-          filmYear
-          filmName
-        }
-        video
       }
+        films {
+        filmYear
+          filmName
+      }
+      video
+    }
       be {
         name
         location
-        yearsOfLife
-        bio
+      yearsOfLife
+      bio
         timeline {
-          time
+        time
           description
-        }
-        films {
-          filmYear
-          filmName
-        }
-        video
       }
+        films {
+        filmYear
+          filmName
+      }
+      video
     }
   }
+}
 `
 
 export default injectIntl(DirectorTemplate);

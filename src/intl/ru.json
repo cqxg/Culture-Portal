@@ -11,7 +11,7 @@
     "description": "You just hit a route that doesn't exist... the sadness."
   },
 
-  "aboutUs": {    
+  "aboutUs": {
     "developers": {
       "gregory": "Григорий Сидорин",
       "alina": "Алина Тылец",
@@ -44,10 +44,11 @@
     "welcomeDirectors": "Добро пожаловать на страницу белорусских режиссеров",
     "welcomeDirector": "Добро пожаловать на страницу белорусского режиссера"
 	},
-	
+
 	"directorPage": {
 		"map": "Карта",
     "filmYear": "Год выхода фильма",
-    "filmName": "Название фильма"
+    "filmName": "Название фильма",
+    "films": "Фильмы"
 	}
 }
