@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 function renderImage(file) {
-    return <Img fluid={file.node.childImageSharp.fluid} alt={file.node.name} />;
+    return <Img fixed={file.node.childImageSharp.fixed} alt={file.node.name} />;
 }
 
 const Image = function(props) {
@@ -20,8 +20,8 @@ const Image = function(props) {
                 extension
                 relativePath
                 childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
+                  fixed {
+                    ...GatsbyImageSharpFixed
                   }
                 }
               }
