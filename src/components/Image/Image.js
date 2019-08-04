@@ -2,11 +2,12 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
+const Image = function(props) {
+    
 function renderImage(file) {
-    return <Img fixed={file.node.childImageSharp.fixed} alt={file.node.name} />;
+    return <Img fixed={file ? file.node.childImageSharp.fixed : false} alt={file ? file.node.name : ''} />;
 }
 
-const Image = function(props) {
   return (
     <StaticQuery
       query={graphql`
@@ -28,13 +29,13 @@ const Image = function(props) {
             }
           }
         }
-      `}
-
-      render={data => (
-        renderImage(data.images.edges.find(image => {
-          return image.node.relativePath === props.src;
+      `}      
+      
+      render={({ images }) =>
+        renderImage(images.edges.find(image => {
+            return image && image.node && image.node.relativePath === props.src;
         }))
-      )}
+      }
     />
   )
 }

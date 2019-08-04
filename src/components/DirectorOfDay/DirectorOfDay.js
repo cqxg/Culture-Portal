@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormattedMessage, Link, injectIntl } from 'gatsby-plugin-intl';
-import Image from '../Image/Image'
+import Image from '../Image/Image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Button } from 'reactstrap';
 import directorOfDayStyles from './directorOfDay.module.less';
@@ -30,8 +30,10 @@ const DirectorOfDay = ({ intl, director }) => {
                 </Col>
 
                 <Col md={5} xs={{ size: 12, order: 2 }}>
-                    <div className={directorOfDayStyles.directorOfDay_container_content_img_resize} >
-                        <Image src={director.image}></Image>
+                    <div
+                        className={directorOfDayStyles.directorOfDay_container_content_img_resize}
+                    >
+                        <Image src={director.image.substr(1)}></Image>
                     </div>
                 </Col>
             </Row>
