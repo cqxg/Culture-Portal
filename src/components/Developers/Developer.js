@@ -46,21 +46,21 @@ const teamData = [
 ];
 
 const Developer = (props) => {
-  return (<Col lg={2} md={6} xs={12}>
-    <div className={developerStyles.developer_block}>
-      <Image src={props.url}></Image>
-      {/* <img className={developerStyles.developer_photo} src={props.url} alt='developer-avatar'/> */}
-      <div className={developerStyles.developer_information}>
-        <p className={developerStyles.developer_name}>
-          <FormattedMessage id={`${props.name}`} />
-        </p>
-        <p className={developerStyles.developer_nickname}>{props.git}</p>
-        <a target="_blank" href={props.href}>
-          <img className={developerStyles.git_photo} src="https://anart.ru/img/2014/04/octocat.png" />
-        </a>
-      </div>
-    </div>
-  </Col>);
+  return (
+    <Col lg={2} md={6} xs={12}>
+        <div className={developerStyles.developer_block}>
+        <Image src={props.url}></Image>
+        <div className={developerStyles.developer_information}>
+            <p className={developerStyles.developer_name}>
+                <FormattedMessage id={`${props.name}`} />
+            </p>
+            <p className={developerStyles.developer_nickname}>{props.git}</p>
+            <a target="_blank" href={props.href}>
+                <img className={developerStyles.git_photo} src="https://anart.ru/img/2014/04/octocat.png" />
+            </a>
+        </div>
+        </div>
+    </Col>);
 }
 
 const DevelopersTeam = (props) => {
