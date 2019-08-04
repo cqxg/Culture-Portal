@@ -1,5 +1,7 @@
 # Belarusian Directors Culture Portal
 
+https://belarusian-directors.netlify.com/
+
 ## by 23group
 
 
@@ -86,8 +88,9 @@ Project team worklog:
 |------|---------------|---------|
 |24.07.2019|1|Meeting: discussed and chose main color theme, fonts for the portal, decided to manage project in trello, add cards for all team members to learn bootstrap, gatsby and i18n libs|
 |30.08.2019|3|make DirectorOfDay component|
-|01.09.2019|4|make Video component|
-|02.09.2019|3|add DirectorOfDay component to page and fix it logic|
+|01.08.2019|4|make Video component|
+|02.08.2019|3|add DirectorOfDay component to page and fix it logic|
+|04.08.2019|3|styling pages|
 
 
 
