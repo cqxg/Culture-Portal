@@ -29,7 +29,7 @@ function renderImage(file) {
             }
           }
         }
-      `}
+      `}      
       
       render={({ images }) =>
         renderImage(images.edges.find(image => {
