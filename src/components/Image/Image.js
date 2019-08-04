@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 const Image = function(props) {
     
 function renderImage(file) {
-    return <Img fixed={file ? file.node.childImageSharp.fluid : false} alt={file ? file.node.name : ''} />;
+    return <Img fluid={file ? file.node.childImageSharp.fluid : false} alt={file ? file.node.name : ''} />;
 }
 
   return (
@@ -21,8 +21,8 @@ function renderImage(file) {
                 extension
                 relativePath
                 childImageSharp {
-                  fixed {
-                    ...GatsbyImageSharpFixed
+                    fluid {
+                    ...GatsbyImageSharpFluid
                   }
                 }
               }
