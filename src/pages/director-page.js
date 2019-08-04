@@ -51,17 +51,17 @@ const Director = ({ intl, location }) => {
                                 </Row>
                                 <Row>
                                     <Col size={12}>
-                                        {directorData && <Time timelineArray={directorData[intl.locale].timeline} />}
+                                        {directorData[intl.locale] && <Time timelineArray={directorData[intl.locale].timeline} />}
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col size={12}>
-                                        {directorData && <Video url={directorData[intl.locale].video} />}
+                                        {directorData[intl.locale] && <Video url={directorData[intl.locale].video} />}
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col size={12}>
-                                        {directorData && <DirectorMap></DirectorMap>}
+                                        {directorData[intl.locale] && <DirectorMap></DirectorMap>}
                                     </Col>
                                 </Row>
                                 <Row>
