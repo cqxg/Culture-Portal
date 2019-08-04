@@ -41,6 +41,7 @@ const Director = ({ intl, location }) => {
                                         <h1>
                                             {directorData[lang] && directorData[lang].name}
                                         </h1>
+                                        {/* {directorData.image && <Image src={directorData.image.substr(1)}></Image>} */}
                                         <p>
                                             {directorData[lang] && directorData[lang].yearsOfLife}
                                         </p>
@@ -58,11 +59,11 @@ const Director = ({ intl, location }) => {
                                         {directorData[intl.locale] && <Video url={directorData[intl.locale].video} />}
                                     </Col>
                                 </Row>
-                                <Row>
+                                {/* <Row>
                                     <Col size={12}>
                                         {directorData[intl.locale] && <DirectorMap></DirectorMap>}
                                     </Col>
-                                </Row>
+                                </Row> */}
                                 <Row>
                                     <Col size={12}>
                                         Gallery
