@@ -6,7 +6,6 @@ import Image from '../components/Image/Image';
 import SEO from '../components/seo';
 import Time from '../components/Timeline/Timeline';
 import Video from '../components/Video/Video';
-import Map from '../components/Map/Map';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -56,11 +55,6 @@ const Director = ({ intl, location }) => {
                 <Row>
                     <Col size={12}>
                         <Video url={directorData[intl.locale].video}/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col size={12}>
-                        <Map/>
                     </Col>
                 </Row>
                 <Row>
