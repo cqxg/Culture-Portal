@@ -5,11 +5,14 @@ import searchStyles from './search.module.less';
 
 const SearchBar = ({ term, data, update, sortFunc }) => {
     const [value, setValue] = useState('');
-
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sortFunc({value})
+    };
     return (
         <Row className={searchStyles.search_row}>
             <Col lg={12}>
-                <Form className={searchStyles.search_form}>
+                <Form className={searchStyles.search_form} onSubmit={handleSubmit}>
                     <FormGroup className={searchStyles.search_form_group}>
                         <Input onChange={e => setValue(e.target.value)} type='text' name='search' id='exampleEmail' placeholder='Search a director'/>
                     </FormGroup>

@@ -11,7 +11,16 @@ import SearchBar from '../components/Search/SearchBar';
 
 const Directors = ({ intl }) => {
     const directorsInfoJson = directorsInfo().allDirectorsJson.edges.map(node => node.node);
-    const [directorsAfterSearch, setDirectorsAfterSearch] = useState(directorsInfoJson);
+    const handleSort = (a, b) => {
+        const compare1 = a[intl.locale].name.toLowerCase();
+        const compare2 = b[intl.locale].name.toLowerCase();
+
+        if(compare1 < compare2) { return -1; }
+        if(compare1 > compare2) { return 1; }
+        return 0
+    };
+    const sortedDirectors = directorsInfoJson.sort(handleSort);
+    const [directorsAfterSearch, setDirectorsAfterSearch] = useState(sortedDirectors);
     const searchFunc = (lookFor) => {
         console.log(lookFor);
         if (lookFor.value) {
@@ -23,6 +32,7 @@ const Directors = ({ intl }) => {
                     || target[intl.locale].location.toLowerCase().includes(lookFor.value.toLowerCase()))
             };
             const result = directorsInfoJson.filter(dir => searchBoth(dir));
+            const sortedResult = result.sort(handleSort);
             setDirectorsAfterSearch(result);
         } else {
             setDirectorsAfterSearch(directorsInfoJson);
