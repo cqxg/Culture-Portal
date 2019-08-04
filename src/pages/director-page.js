@@ -6,8 +6,8 @@ import Image from '../components/Image/Image';
 import SEO from '../components/seo';
 import Time from '../components/Timeline/Timeline';
 import Video from '../components/Video/Video';
-import Map from '../components/Map/Map';
 import Carousel from '../components/Carousel/Carousel';
+
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -61,11 +61,7 @@ const Director = ({ intl, location }) => {
                 </Row>
                 <Row>
                     <Col size={12}>
-                        <Map/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col size={12}>
+
                         {/* directorData.galleryImages should contain equal size images */}
                        <Carousel images={directorData.galleryImages} />
                     </Col>
