@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormattedMessage, Link, injectIntl } from 'gatsby-plugin-intl';
-// import Image from '../Image/Image'
+import Image from '../Image/Image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Button } from 'reactstrap';
 import directorOfDayStyles from './directorOfDay.module.less';

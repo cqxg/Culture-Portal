@@ -1,25 +1,25 @@
 {
   "id": "aleksandr-gintsburg",
-  "image": "/uploads/gintsburg.jpg",
+  "image": "uploads/gintsburg.jpg",
   "locationPin": "{\"type\":\"Point\",\"coordinates\":[27.63,53.927]}",
   "galleryImages": [
     {
-      "image": "/uploads/gintsburg-gallery-1.jpg"
+      "image": "uploads/gintsburg-gallery-1.jpg"
     },
     {
-      "image": "/uploads/gintsburg-gallery-2.jpg"
+      "image": "uploads/gintsburg-gallery-2.jpg"
     },
     {
-      "image": "/uploads/gintsburg-gallery-3.jpg"
+      "image": "uploads/gintsburg-gallery-3.jpg"
     },
     {
-      "image": "/uploads/gintsburg-gallery-4.jpg"
+      "image": "uploads/gintsburg-gallery-4.jpg"
     },
     {
-      "image": "/uploads/gintsburg-gallery-5.jpg"
+      "image": "uploads/gintsburg-gallery-5.jpg"
     },
     {
-      "image": "/uploads/gintsburg-gallery-6.jpg"
+      "image": "uploads/gintsburg-gallery-6.jpg"
     }
   ],
   "en": {

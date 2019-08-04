@@ -1,22 +1,22 @@
 {
   "id": "mikhail-nikolaevich-ptashuk",
-  "image": "/uploads/ptashuk.jpg",
+  "image": "uploads/ptashuk.jpg",
   "locationPin": "{\"type\":\"Point\",\"coordinates\":[26.168,53.068]}",
   "galleryImages": [
     {
-      "image": "/uploads/ptashuk-gallery-1.jpg"
+      "image": "uploads/ptashuk-gallery-1.jpg"
     },
     {
-      "image": "/uploads/ptashuk-gallery-2.jpg"
+      "image": "uploads/ptashuk-gallery-2.jpg"
     },
     {
-      "image": "/uploads/ptashuk-gallery-3.jpg"
+      "image": "uploads/ptashuk-gallery-3.jpg"
     },
     {
-      "image": "/uploads/ptashuk-gallery-4.jpg"
+      "image": "uploads/ptashuk-gallery-4.jpg"
     },
     {
-      "image": "/uploads/ptashuk-gallery-5.jpg"
+      "image": "uploads/ptashuk-gallery-5.jpg"
     }
   ],
   "en": {
