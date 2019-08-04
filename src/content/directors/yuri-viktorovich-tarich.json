@@ -1,25 +1,25 @@
 {
   "id": "yuri-viktorovich-tarich",
-  "image": "/uploads/tarich.jpg",
+  "image": "uploads/tarich.jpg",
   "locationPin": "{\"type\":\"Point\",\"coordinates\":[37.531,55.703]}",
   "galleryImages": [
     {
-      "image": "/uploads/tarich-gallery-1.jpg"
+      "image": "uploads/tarich-gallery-1.jpg"
     },
     {
-      "image": "/uploads/tarich-gallery-2.jpg"
+      "image": "uploads/tarich-gallery-2.jpg"
     },
     {
-      "image": "/uploads/tarich-gallery-3.jpg"
+      "image": "uploads/tarich-gallery-3.jpg"
     },
     {
-      "image": "/uploads/tarich-gallery-4.jpg"
+      "image": "uploads/tarich-gallery-4.jpg"
     },
     {
-      "image": "/uploads/tarich-gallery-5.jpg"
+      "image": "uploads/tarich-gallery-5.jpg"
     },
     {
-      "image": "/uploads/tarich-gallery-6.jpg"
+      "image": "uploads/tarich-gallery-6.jpg"
     }
   ],
   "en": {
