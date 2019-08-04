@@ -18,14 +18,18 @@ h2 {
   line-height: 1.1;
 }
 
+img {
+  margin-bottom: 0;
+}
+
 .developers_content {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
   .developer_block {
-    border: 1px solid rgb(216, 196, 194);
+    overflow: hidden;
+    border-radius: 5px;
     margin-bottom: 10px;
     .developer_photo {
       width: 100%;
-      height: auto;
     }
     .developer_information {
       display: flex;
@@ -36,6 +40,7 @@ h2 {
         .git_photo {
           height: 80px;
           width: 80px;
+          margin: 0 0 10px 0;
           border-radius: 50px;
           transition: ease-in .3s;
           &:hover {
@@ -44,15 +49,29 @@ h2 {
         }
       }
       .developer_name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-transform: uppercase;
+        text-align: center;
+        width: 90%;
+        height: 60px;
         margin: 10px 0;
-        color: #696464;
-        font-size: 16px;
+        color: @color-grey;
+        border-top: 2px solid @color-red;
+        border-bottom: 2px solid @color-red;
+        font-size: 18px;
+        @media only screen and (max-width: 768px) {
+          font-size: 40px;    
+        }
       }
       .developer_nickname {
         margin: 10px 0;
-        color: #696464;
-        font-size: 14px;
+        color: lighten(@color-grey,10%);   
+        font-size: 17px;
+        @media only screen and (max-width: 768px) {
+          font-size: 30px;
+        }
       }
     }
   }
