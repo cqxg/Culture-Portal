@@ -16,7 +16,7 @@ const IndexPage = ({ intl }) => {
     <Layout>
             <Container className={mainStyles.main_container}>
                 <Row>
-                    <Col lg={5} md={12} xs={12} className={mainStyles.main_description}>
+                    <Col lg={6} md={12} xs={12} className={mainStyles.main_description}>
                         <p>
                         <FormattedMessage id="index.description" />
                         </p>

@@ -20,7 +20,7 @@ const AboutUs = ({ intl }) => (
 			<Row>
 				<Col lg={12} md={12} xs={12}>
 					<h2>
-						<FormattedMessage id="index.titleDevelopers"/>
+						<FormattedMessage id="aboutUs.titleDevelopers"/>
 					</h2>
 					<Developer />
 				</Col>

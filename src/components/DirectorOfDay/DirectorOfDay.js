@@ -7,7 +7,7 @@ import directorOfDayStyles from './directorOfDay.module.less';
 
 const DirectorOfDay = ({ intl, director }) => {
     return (
-        <Col className={directorOfDayStyles.directorOfDay_container}>
+        <Col lg={6} className={directorOfDayStyles.directorOfDay_container}>
             <Row className={directorOfDayStyles.directorOfDay_title_container}>
                 <h2>
                     <FormattedMessage id='index.dirOfTheDay' />
@@ -15,12 +15,22 @@ const DirectorOfDay = ({ intl, director }) => {
             </Row>
 
             <Row className={directorOfDayStyles.directorOfDay_content_container}>
-                <Col md={6} xs={{ size: 12, order: 1 }}>
-                    <h3>{director[intl.locale].name}</h3>
-                    <p>{director[intl.locale].yearsOfLife}</p>
+                <Col className={directorOfDayStyles.nameBlock} lg={7} md={7} xs={{ size: 12, order: 1 }} >
+                    <div>
+                        <h2>{director[intl.locale].name}</h2>
+                        <p>{director[intl.locale].yearsOfLife}</p>
+                        <h4>{director[intl.locale].bio}</h4>
+                    </div>
+                    <div className={directorOfDayStyles.descriptionBlockDekstop}>
+                        <Link to="/" className={directorOfDayStyles.contentButton}>
+                            <Button variant='primary' size='lg' block>
+                                <FormattedMessage id='index.more' />
+                            </Button>
+                        </Link>
+                    </div>
                 </Col>
 
-                <Col md={6} xs={{ size: 12, order: 3 }}>
+                <Col className={directorOfDayStyles.descriptionBlockMobile} md={6} xs={{ size: 12, order: 3 }}>
                     <h4>{director[intl.locale].bio}</h4>
                     <Link to="/" className={directorOfDayStyles.contentButton}>
                         <Button variant='primary' size='lg' block>
@@ -29,7 +39,7 @@ const DirectorOfDay = ({ intl, director }) => {
                     </Link>
                 </Col>
 
-                <Col md={5} xs={{ size: 12, order: 2 }}>
+                <Col lg={5} md={5} xs={{ size: 12, order: 2 }}>
                     <div
                         className={directorOfDayStyles.directorOfDay_container_content_img_resize}
                     >
