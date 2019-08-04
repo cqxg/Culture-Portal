@@ -26,10 +26,11 @@ img {
   margin: 50px 0 0 0;
   .developer_block {
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: @color-grey;
     border-radius: 5px;
     margin-bottom: 10px;
     .developer_photo {
+
       width: 100%;
     }
     .developer_information {
@@ -53,10 +54,10 @@ img {
         text-transform: uppercase;
         text-align: center;
         width: 90%;
-        height: 60px;
-        margin: 10px 0;
-        color: @color-grey;
-        border-bottom: 2px solid @color-red;
+        height: 65px;
+        margin: 10px 0 0 0;
+        color: @color-white;
+        border-bottom: 2px solid @color-white;
         font-size: 18px;
         @media only screen and (max-width: 768px) {
           font-size: 40px;    
@@ -64,7 +65,7 @@ img {
       }
       .developer_nickname {
         margin: 10px 0;
-        color: lighten(@color-grey,10%);   
+        color: @color-white;   
         font-size: 17px;
         @media only screen and (max-width: 768px) {
           font-size: 30px;
