@@ -14,21 +14,25 @@ const FilmographyTable = ({filmsIncome}) => {
       </tr>
     )
   })
-  return ( <BootstrapTable striped borderless className={tableStyles.table}>
-    <thead className={tableStyles.tableTitle_row}>
-      <tr className={tableStyles.table_row}>
-        <th>
-          <FormattedMessage id='directorPage.filmName' />
-        </th>
-        <th>
-          <FormattedMessage id='directorPage.filmYear' />
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      {films}
-    </tbody>
-  </BootstrapTable>)
+  return (
+  <>
+    <h1><FormattedMessage id='directorPage.films'/></h1>
+    <BootstrapTable striped borderless className={tableStyles.table}>
+      <thead className={tableStyles.tableTitle_row}>
+        <tr className={tableStyles.table_row}>
+          <th>
+            <FormattedMessage id='directorPage.filmName' />
+          </th>
+          <th>
+            <FormattedMessage id='directorPage.filmYear' />
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {films}
+      </tbody>
+    </BootstrapTable>
+  </>)
 };
 
 export default FilmographyTable;
