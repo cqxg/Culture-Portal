@@ -7,7 +7,7 @@ import carouselStyles from './carousel.module.less';
 
 const Carousel = (props) => {
   const slides = props.images.map((image, i) => {
-    return <BootstrapCarousel.Item>
+    return <BootstrapCarousel.Item key={i}>
       <Image src={image.image} />
     </BootstrapCarousel.Item>
   });

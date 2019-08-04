@@ -42,7 +42,7 @@ const Director = ({ intl, location }) => {
                                         <h1>
                                             {directorData[lang] && directorData[lang].name}
                                         </h1>
-                                        {/* {directorData.image && <Image src={directorData.image.substr(1)}></Image>} */}
+                                        {directorData.image && <Image src={directorData.image}></Image>}
                                         <p>
                                             {directorData[lang] && directorData[lang].yearsOfLife}
                                         </p>
