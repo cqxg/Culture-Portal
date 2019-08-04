@@ -29,8 +29,8 @@ function renderImage(file) {
             }
           }
         }
-      `}
-
+      `}      
+      
       render={({ images }) =>
         renderImage(images.edges.find(image => {
             return image && image.node && image.node.relativePath === props.src;
