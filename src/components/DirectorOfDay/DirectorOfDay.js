@@ -22,21 +22,19 @@ const DirectorOfDay = ({ intl, director }) => {
                         <h4>{director[intl.locale].bio}</h4>
                     </div>
                     <div className={directorOfDayStyles.descriptionBlockDekstop}>
-                        <Link to="/" className={directorOfDayStyles.contentButton}>
-                            <Button variant='primary' size='lg' block>
-                                <FormattedMessage id='index.more' />
-                            </Button>
-                        </Link>
+                      <Link  className={directorOfDayStyles.contentButton} to={`/${director.id}`} state={{ directorData: director }}>
+                        <FormattedMessage id='index.more' />
+                      </Link>
                     </div>
                 </Col>
 
                 <Col className={directorOfDayStyles.descriptionBlockMobile} md={6} xs={{ size: 12, order: 3 }}>
                     <h4>{director[intl.locale].bio}</h4>
-                    <Link to="/" className={directorOfDayStyles.contentButton}>
-                        <Button variant='primary' size='lg' block>
-                            <FormattedMessage id='index.more' />
-                        </Button>
-                    </Link>
+                    <div className={directorOfDayStyles.descriptionBlockMobileButtonContainer}>
+                      <Link  className={directorOfDayStyles.contentButton} to={`/${director.id}`} state={{ directorData: director }}>
+                          <FormattedMessage id='index.more' />
+                      </Link>
+                    </div>
                 </Col>
 
                 <Col lg={5} md={5} xs={{ size: 12, order: 2 }}>

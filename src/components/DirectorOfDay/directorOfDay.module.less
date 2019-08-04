@@ -50,10 +50,32 @@
 				color: darken(@color-light, 20%)
 			}
 			.descriptionBlockDekstop{
-				a {
-					margin-bottom: 0;
-				}
-			}
+        text-align: center;
+        background: @color-red;
+        border-radius: 5px;
+        padding: 10px 0px;
+        border: 2px solid transparent;
+        &:hover {
+          background: lighten(@color-red, 20%);
+          border: 2px solid lighten(@color-red, 40%);
+          transition: ease-in .3s;
+          cursor: pointer;
+        }
+        transition: ease-in .3s;
+      }
+      .contentButton {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 1.38rem;
+        color: @color-light;
+        &:hover {
+          text-decoration: none;
+        }
+        @media only screen and (max-width: 768px) {
+          // padding: 1.5% 20%;
+        }
+      }
 			@media only screen and (max-width: 768px) {
 				text-align: center;
 				h2{
@@ -62,6 +84,20 @@
 			}
 		}
 		.descriptionBlockMobile {
+      .descriptionBlockMobileButtonContainer{
+        text-align: center;
+        background: @color-red;
+        border-radius: 5px;
+        padding: 10px 0px;
+        border: 2px solid transparent;
+        &:hover {
+          background: lighten(@color-red, 20%);
+          border: 2px solid lighten(@color-red, 40%);
+          transition: ease-in .3s;
+          cursor: pointer;
+        }
+        transition: ease-in .3s;
+      }
 			display: none;
 			h4 {
 				margin: 0 0 15px 0;
@@ -87,22 +123,6 @@
 			}
 			.descriptionBlockDekstop {
 				display: none;
-			}
-		}
-		.contentButton {
-			display: flex;
-			justify-content: center;
-			margin: 0 0 4% 0;
-			text-decoration: none;
-			button {
-				font-size: 1.38rem;
-				color: @color-light;
-				padding: 3% 20%;
-				background: @color-red;
-				border: none;
-				@media only screen and (max-width: 768px) {
-					padding: 1.5% 20%;
-				}
 			}
 		}
 	}

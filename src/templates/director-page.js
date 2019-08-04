@@ -47,15 +47,15 @@ const DirectorTemplate = ({ data, intl }) => {
           </Col>
         </Row>
         <Row>
-          <Col size={12}>
+          <Col size={12} className={directorPageStyles.filmographyComponentContainer}>
             {director[intl.locale] && director[intl.locale].films.length && <FilmographyTable filmsIncome={director[intl.locale].films} />}
           </Col>
         </Row>
         <Row>
-          <Col size={12}>
+          <Col size={12} className={directorPageStyles.videoComponentContainer}>
             {director[intl.locale] && <Video url={director[intl.locale].video} />}
           </Col>
-        </Row>
+        </Row>s
         <Row>
           <Col size={12} className={directorPageStyles.mapComponentContainer}>
             {director[intl.locale] && <DirectorMap/>}
