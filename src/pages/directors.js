@@ -33,7 +33,7 @@ const Directors = ({ intl }) => {
             };
             const result = directorsInfoJson.filter(dir => searchBoth(dir));
             const sortedResult = result.sort(handleSort);
-            setDirectorsAfterSearch(result);
+            setDirectorsAfterSearch(sortedResult);
         } else {
             setDirectorsAfterSearch(directorsInfoJson);
         }
