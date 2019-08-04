@@ -1,0 +1,262 @@
+{
+  "id": "yuri-viktorovich-tarich",
+  "image": "uploads/tarich.jpg",
+  "locationPin": "{\"type\":\"Point\",\"coordinates\":[37.531,55.703]}",
+  "galleryImages": [
+    {
+      "image": "uploads/tarich-gallery-1.jpg"
+    },
+    {
+      "image": "uploads/tarich-gallery-2.jpg"
+    },
+    {
+      "image": "uploads/tarich-gallery-3.jpg"
+    },
+    {
+      "image": "uploads/tarich-gallery-4.jpg"
+    },
+    {
+      "image": "uploads/tarich-gallery-5.jpg"
+    },
+    {
+      "image": "uploads/tarich-gallery-6.jpg"
+    }
+  ],
+  "en": {
+    "name": "Yuri Viktorovich Tarich",
+    "yearsOfLife": "12 (24) January 1885 - 21 February 1967",
+    "location": "Polotsk ",
+    "bio": "Soviet film director and screenwriter. Merited Artist of the RSFSR (1935)",
+    "timeline": [
+      {
+        "time": "1903 - 1905",
+        "description": "Studying at the Faculty of Law of Moscow University"
+      },
+      {
+        "time": "1905",
+        "description": "For his participation in the revolutionary riots in Warsaw he was exiled to the Tobolsk province"
+      },
+      {
+        "time": "1907",
+        "description": "Since 1907 he was an actor in Tobolsk, then in Chita, Lipetsk, Tambov, Vilna"
+      },
+      {
+        "time": "1917",
+        "description": "Since 1917 again in Moscow, actor and director of a number of leading theatres (worked with V. Meyerhold as well)"
+      },
+      {
+        "time": "1920 - 1924",
+        "description": "In 1920-1924 - one of the heads of the Kursant Theatre in the Kremlin"
+      },
+      {
+        "time": "1923",
+        "description": "Since 1923, in the film industry, first as a screenwriter and then as a director"
+      },
+      {
+        "time": "1925 - 1939",
+        "description": "From the middle of the 1920s he worked in Leningrad, including the studio \"Belgoskino\" that was there at that time; one of the founders of cinematography in Belarus: in 1926 he staged the first Belarusian feature film \"Forest byline\" (based on the novel by M. Charota)."
+      },
+      {
+        "time": "1943 - 1945",
+        "description": "During the Great Patriotic War he participated in the creation of \"Combat Film Collectors\", in 1943-1945 headed the film studio \"Mongolkino\""
+      },
+      {
+        "time": "1945 -1967",
+        "description": "Later he worked at the film studios \"Soyuzdetfilm\", \"Belorusfilm\", since 1954 at the Moscow studio of popular science films"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1924",
+        "filmName": "Gang of Father Knysh - writer (together with N. Aizikovich)"
+      },
+      {
+        "filmYear": "1925",
+        "filmName": "Enemies - writer (together with N. Aizikovich)"
+      },
+      {
+        "filmYear": "1926",
+        "filmName": "Forest byline  - writer (together with E. Ivanov-Barkov) and director"
+      },
+      {
+        "filmYear": "1928",
+        "filmName": "Captain's daughter - director (script by V. Shklovsky based on the novel \"Captain's daughter\" by A. S. Pushkin)"
+      },
+      {
+        "filmYear": "1929",
+        "filmName": "Till tomorrow - writer and director (together with I. Bahar)"
+      },
+      {
+        "filmYear": "1932",
+        "filmName": "The fugitives - director"
+      },
+      {
+        "filmYear": "1940",
+        "filmName": "Heavens - director"
+      },
+      {
+        "filmYear": "1942",
+        "filmName": "Belarusian novels - director (together with V. Korsh-Sablin)"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=ZAYhyhsvXdY"
+  },
+  "ru": {
+    "name": "Юрий Викторович Тарич",
+    "yearsOfLife": "12 (24) января 1885 - 21 февраля 1967",
+    "location": "Полоцк",
+    "bio": "Cоветский кинорежиссёр и сценарист. Заслуженный деятель искусств РСФСР (1935)",
+    "timeline": [
+      {
+        "time": "1903 - 1905",
+        "description": "Учеба на юридическом факультете Московского университета"
+      },
+      {
+        "time": "1905",
+        "description": "За участие в революционных волнениях в Варшаве был сослан в Тобольскую губернию"
+      },
+      {
+        "time": "1907",
+        "description": "С 1907 г. был актёром в Тобольске, затем в Чите, Липецке, Тамбове, Вильне"
+      },
+      {
+        "time": "1917",
+        "description": "С 1917 г. снова в Москве, актёр и режиссёр ряда ведущих театров (работал в том числе с В. Мейерхольдом)"
+      },
+      {
+        "time": "1920 - 1924",
+        "description": "В 1920-1924 гг. - один из руководителей Курсантского театра в Кремле"
+      },
+      {
+        "time": "1923",
+        "description": "С 1923 г. в кинематографе: сперва киносценарист, затем и режиссёр"
+      },
+      {
+        "time": "1925 - 1939",
+        "description": "С середины 1920-х гг. работал в Ленинграде, в том числе на находившейся тогда там студии \"Белгоскино\"; один из основоположников кинематографии Белоруссии: в 1926 г. поставил первый белорусский игровой фильм \"Лесная быль\" (по повести М. Чарота)"
+      },
+      {
+        "time": "1943 - 1945",
+        "description": "В годы Великой Отечественной войны участвовал в создании \"Боевых киносборников\", в 1943-1945 гг. возглавлял киностудию \"Монголкино\""
+      },
+      {
+        "time": "1945 - 1967",
+        "description": "Позже работал на киностудиях \"Союздетфильм\", \"Белорусьфильм\", с 1954 г. на Московской студии научно-популярных фильмов"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1924",
+        "filmName": "Банда батьки Кныша - сценарист (совместно с Н. Айзиковичем)"
+      },
+      {
+        "filmYear": "1925",
+        "filmName": "Враги - сценарист (совместно с Н. Айзиковичем)"
+      },
+      {
+        "filmYear": "1926",
+        "filmName": "Лесная быль - сценарист (совместно с Е. Ивановым-Барковым) и режиссёр"
+      },
+      {
+        "filmYear": "1928",
+        "filmName": "Капитанская дочка - режиссёр (сценарий В. Шкловского по мотивам повести А. С. Пушкина «Капитанская дочка»)"
+      },
+      {
+        "filmYear": "1929",
+        "filmName": "До завтра - сценарист и режиссёр (совместно с И. Бахаром)"
+      },
+      {
+        "filmYear": "1932",
+        "filmName": "Беглецы - режиссёр"
+      },
+      {
+        "filmYear": "1940",
+        "filmName": "Небеса - режиссёр"
+      },
+      {
+        "filmYear": "1942",
+        "filmName": "Белорусские новеллы - режиссёр (совместно с В. Корш-Саблиным)"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=ZAYhyhsvXdY"
+  },
+  "be": {
+    "name": "Юрый Віктаравіч Тарыч",
+    "yearsOfLife": "12 (24) студзеня 1885 - 21 лютага 1967",
+    "location": "Полацак",
+    "bio": "Беларускі і расійскі савецкі дзеяч тэатру і кіно, заснавальнік беларускай мастацкай кінематаграфіі",
+    "timeline": [
+      {
+        "time": "1903 - 1905",
+        "description": "Вучоба на юрыдычным факультэце Маскоўскага ўніверсітэта"
+      },
+      {
+        "time": "1905",
+        "description": "У снежні 1905 г. арыштаваны як член Варшаўскай ваенна-рэвалюцыйнай арганізацыі РСДРП і высланы ў вёску Тара Табольскай губерні. Акцёрскае імя, а пасля і псеўданім, атрымаў ад назвы месца высылкі"
+      },
+      {
+        "time": "1907",
+        "description": "З 1907 года быў акцёрам у Табольску, затым у Чыце, Ліпецку, Тамбове, Вільні. Пад час Першай Сусветнай служыў у дзеючай арміі, дзе атрымаў званне паручніка"
+      },
+      {
+        "time": "1917",
+        "description": "З 1917 у Маскве, акцёр і рэжысёр шэрагу вядучых тэатраў (працаваў у тым ліку з У. Меерхольдам)"
+      },
+      {
+        "time": "1920 - 1924",
+        "description": "У 1920-1924 гг. - адзін з кіраўнікоў Курсанцкага тэатра Крамля"
+      },
+      {
+        "time": "1923",
+        "description": "З 1923 года пераходзіць працаваць у кіно спачатку сцэнарыстам, пасля і рэжысёрам"
+      },
+      {
+        "time": "1925 - 1939",
+        "description": "У 1926 г. зняў першы беларускі мастацкі фільм \"Лясная быль\" па аповесці Міхася Чарота \"Свінапас\". Здымкі ў большасці праходзілі на тэрыторыі БССР, у тым ліку ў Мінску, але тэхнічна фільм дарабляўся ў Ленінградзе. Дзень прэм'еры \"Лясной былі\" (26 снежня 1926 г.) у мінскім кінатэатры \"Культура\" лічыцца пачаткам беларускага кіно. У 1928-1939 гг. працаваў на студыі \"Савецкая Беларусь\" у Ленінградзе"
+      },
+      {
+        "time": "1943 - 1945",
+        "description": "У 1943-1945 гг. - дырэктар і мастацкі кіраўнік \"Манголкіно\" (Манголія)"
+      },
+      {
+        "time": "1945 - 1967",
+        "description": "З 1945 г. працаваў пераважна на розных маскоўскіх кінастудыях, але таксама ўзначальваў студыю маладых беларускіх кінематаграфістаў \"Апавяданні пра юнацтва\" (1961-1967), супрацоўнічаў з Беларусьфільмам"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1924",
+        "filmName": "Банда бацькі Кныша - сцэнарыст (сумесна з Н. Айзіковічам)"
+      },
+      {
+        "filmYear": "1925",
+        "filmName": "Ваўкі - сцэнарыст"
+      },
+      {
+        "filmYear": "1926",
+        "filmName": "Лясная быль - сцэнарыст (сумесна з Я. Івановым-Барковым) і рэжысёр"
+      },
+      {
+        "filmYear": "1928",
+        "filmName": "Капітанская дачка - рэжысёр (сцэнарый В. Шклоўскага па матывах аповесці А. С. Пушкіна «Капітанская дачка»)"
+      },
+      {
+        "filmYear": "1929",
+        "filmName": "Да заўтра - сцэнарыст і рэжысёр (сумесна з І. Бахарам)"
+      },
+      {
+        "filmYear": "1932",
+        "filmName": "Беглецы - рэжысёр"
+      },
+      {
+        "filmYear": "1940",
+        "filmName": "Нябёсы - рэжысёр"
+      },
+      {
+        "filmYear": "1942",
+        "filmName": "Беларускія навелы - рэжысёр (сумесна з У. Корш-Сабліным)"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=ZAYhyhsvXdY"
+  }
+}

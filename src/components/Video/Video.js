@@ -25,7 +25,7 @@ const Video = ({ url }) => {
                 <h1>YouTube</h1>
                 <Button variant="primary" onClick={handleModalOpen} size="lg">
                     Watch the video
-          </Button>
+                </Button>
             </Col>
 
             <ReactModal

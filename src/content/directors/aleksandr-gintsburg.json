@@ -1,0 +1,250 @@
+{
+  "id": "aleksandr-gintsburg",
+  "image": "uploads/gintsburg.jpg",
+  "locationPin": "{\"type\":\"Point\",\"coordinates\":[27.63,53.927]}",
+  "galleryImages": [
+    {
+      "image": "uploads/gintsburg-gallery-1.jpg"
+    },
+    {
+      "image": "uploads/gintsburg-gallery-2.jpg"
+    },
+    {
+      "image": "uploads/gintsburg-gallery-3.jpg"
+    },
+    {
+      "image": "uploads/gintsburg-gallery-4.jpg"
+    },
+    {
+      "image": "uploads/gintsburg-gallery-5.jpg"
+    },
+    {
+      "image": "uploads/gintsburg-gallery-6.jpg"
+    }
+  ],
+  "en": {
+    "name": "Aleksandr Gintsburg",
+    "yearsOfLife": "1 March 1907 - 10 March 1972",
+    "location": "Rogachev, Gomel region",
+    "bio": "Soviet cameraman and film director",
+    "timeline": [
+      {
+        "time": "1927 - 1934",
+        "description": "He received a special and higher education in Leningrad (Leningrad Photocinema College, 1927; higher technical education, 1934)"
+      },
+      {
+        "time": "1927 - 1941",
+        "description": "Since 1927, he was working as a cameraman at Lenfilm (then Sovkino)"
+      },
+      {
+        "time": "1941 - 1950",
+        "description": "During the war he worked for the Central United Film Studio (Tashkent). Then - Gorky Film Studio (1943, then \"Soyuzdetfilm\")."
+      },
+      {
+        "time": "1950 - 1960",
+        "description": "In the 1950s he worked at the Belarusfilm studio. He put on his own scripts films \"Once at Night\" (1962, with E. I. Faik), \"Hyperboloid engineer Garin\" (1966, the script together with I.M.Manevich)"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1930",
+        "filmName": "Transport of Fire"
+      },
+      {
+        "filmYear": "1931",
+        "filmName": "Son of the Land"
+      },
+      {
+        "filmYear": "1932",
+        "filmName": "Counterclockwise"
+      },
+      {
+        "filmYear": "1935",
+        "filmName": "Peasants"
+      },
+      {
+        "filmYear": "1935",
+        "filmName": "Zhana Knukke Wedding"
+      },
+      {
+        "filmYear": "1940",
+        "filmName": "Sixty days"
+      },
+      {
+        "filmYear": "1942",
+        "filmName": "His name is Sukhe-Bator"
+      },
+      {
+        "filmYear": "1943",
+        "filmName": "Two Soldiers"
+      },
+      {
+        "filmYear": "1949",
+        "filmName": "This was in Donbasse"
+      },
+      {
+        "filmYear": "1954",
+        "filmName": "Who Laughs Last"
+      },
+      {
+        "filmYear": "1960",
+        "filmName": "Cinderella"
+      },
+      {
+        "filmYear": "1965",
+        "filmName": "The Hyperboloid of Engineer Garin"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=HoFs7pOA5-o"
+  },
+  "ru": {
+    "name": "Александр Ильич Гинцбург",
+    "yearsOfLife": "1 марта 1907 - 10 марта 1972",
+    "location": "Рогачев, Гомельская область",
+    "bio": "Советский кинооператор и режиссёр",
+    "timeline": [
+      {
+        "time": "1927 - 1934",
+        "description": "Специальное и высшее образование получил в Ленинграде (Ленинградский фотокинотехникум, 1927 год; высшее техническое, 1934 год)"
+      },
+      {
+        "time": "1927 - 1941",
+        "description": "С 1927 года работал оператором на \"Ленфильме\" (тогда Совкино)"
+      },
+      {
+        "time": "1941 - 1950",
+        "description": "Во время войны работал на ЦОКС (Ташкент). Затем - Киностудия имени М. Горького (1943 год, тогда \"Союздетфильм\")"
+      },
+      {
+        "time": "1950 - 1960",
+        "description": "В 1950-х годах работал на студии \"Беларусьфильм\". Поставил по собственным сценариям фильмы \"Однажды ночью\" (1962, с Э. И. Файком), \"Гиперболоид инженера Гарина\" (1966, сценарий совместно c И. М. Маневичем)"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1930",
+        "filmName": "Транспорт огня"
+      },
+      {
+        "filmYear": "1931",
+        "filmName": "Сын страны"
+      },
+      {
+        "filmYear": "1932",
+        "filmName": "Встречный"
+      },
+      {
+        "filmYear": "1935",
+        "filmName": "Крестьяне"
+      },
+      {
+        "filmYear": "1935",
+        "filmName": "Женитьба Яна Кнукке"
+      },
+      {
+        "filmYear": "1940",
+        "filmName": "Шестьдесят дней"
+      },
+      {
+        "filmYear": "1942",
+        "filmName": "Его зовут Сухэ-Батор"
+      },
+      {
+        "filmYear": "1943",
+        "filmName": "Два бойца"
+      },
+      {
+        "filmYear": "1949",
+        "filmName": "Это было в Донбассе"
+      },
+      {
+        "filmYear": "1954",
+        "filmName": "Кто смеётся последним"
+      },
+      {
+        "filmYear": "1960",
+        "filmName": "Хрустальный башмачок"
+      },
+      {
+        "filmYear": "1965",
+        "filmName": "Гиперболоид инженера Гарина"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=HoFs7pOA5-o"
+  },
+  "be": {
+    "name": "Аляксандр Ільіч Гінцбург",
+    "yearsOfLife": "1 сакавіка 1907 - 10 сакавіка 1972",
+    "location": "Рагачоў, Гомельская вобласць ",
+    "bio": "Беларускі і савецкі кінарэжысёр і кінааператар",
+    "timeline": [
+      {
+        "time": "1927 - 1934",
+        "description": "Спецыяльную і вышэйшую адукацыю атрымаў у Ленінградзе (Ленінградскі фотакінатэхнікум, 1927 год; вышэйшае тэхнічнае, 1934 год)"
+      },
+      {
+        "time": "1927 - 1941",
+        "description": "З 1927 года працаваў аператарам на Ленфільме"
+      },
+      {
+        "time": "1941 - 1950",
+        "description": "Падчас вайны працаваў на ЦАКС (Ташкент). Затым - Кінастудыя імя М.Горкага (1943 год, тады \"Союздетфильм\")"
+      },
+      {
+        "time": "1950 - 1960",
+        "description": "У 1950-х гадах працаваў на студыі \"Беларусьфільм\". Паставіў па ўласных сцэнарыях фільмы \"Аднойчы ноччу\" (1962, з Э. Файкоў), \"Гіпербалоід інжынера Гарына\" (1966, сцэнарый сумесна c І. Маневічам)"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1930",
+        "filmName": "Транспарт агню"
+      },
+      {
+        "filmYear": "1931",
+        "filmName": "Сын краіны"
+      },
+      {
+        "filmYear": "1932",
+        "filmName": "Сустрэчны"
+      },
+      {
+        "filmYear": "1935",
+        "filmName": "Сяляне"
+      },
+      {
+        "filmYear": "1935",
+        "filmName": "Жаніцьба Жана Кнукэ"
+      },
+      {
+        "filmYear": "1940",
+        "filmName": "Шэсцьдзесят дзён"
+      },
+      {
+        "filmYear": "1942",
+        "filmName": "Яго клічуць Сухэ-Батар"
+      },
+      {
+        "filmYear": "1943",
+        "filmName": "Два байца"
+      },
+      {
+        "filmYear": "1949",
+        "filmName": "Гэта было ў Данбасе"
+      },
+      {
+        "filmYear": "1954",
+        "filmName": "Хто смяецца апошнім?"
+      },
+      {
+        "filmYear": "1960",
+        "filmName": "Папялушка"
+      },
+      {
+        "filmYear": "1965",
+        "filmName": "Гіпербалоід інжынера Гарына"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=HoFs7pOA5-o"
+  }
+}

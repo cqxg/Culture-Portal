@@ -6,7 +6,8 @@ import Image from '../components/Image/Image';
 import SEO from '../components/seo';
 import Time from '../components/Timeline/Timeline';
 import Video from '../components/Video/Video';
-import DirectorMap from '../components/DirectorMap/DirectorMap'
+import DirectorMap from '../components/DirectorMap/DirectorMap';
+import Carousel from '../components/Carousel/Carousel';
 
 
 
@@ -41,7 +42,7 @@ const Director = ({ intl, location }) => {
                                         <h1>
                                             {directorData[lang] && directorData[lang].name}
                                         </h1>
-                                        {/* {directorData.image && <Image src={directorData.image.substr(1)}></Image>} */}
+                                        {directorData.image && <Image src={directorData.image}></Image>}
                                         <p>
                                             {directorData[lang] && directorData[lang].yearsOfLife}
                                         </p>
@@ -64,10 +65,10 @@ const Director = ({ intl, location }) => {
                                         {directorData[intl.locale] && <DirectorMap></DirectorMap>}
                                     </Col>
                                 </Row> */}
-                                <Row>
+                                <Row className="mt-5">
                                     <Col size={12}>
-                                        Gallery
-                    </Col>
+                                        {directorData.galleryImages && directorData.galleryImages.length && <Carousel images={directorData.galleryImages} />}
+                                    </Col>
                                 </Row>
                             </div>
                         </>
