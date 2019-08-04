@@ -1,13 +1,15 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
 const allDirectorsJson = () => {
-  const directorsInfo = useStaticQuery(
-    graphql`
+    const directorsInfo = useStaticQuery(
+        graphql`
       query NamesQuery {
         allDirectorsJson {
           edges {
             node {
               id
+              image
+              locationPin
               galleryImages {
                 image
               }
@@ -21,6 +23,10 @@ const allDirectorsJson = () => {
                 description
                 time
                 }
+                films {
+                    filmYear
+                    filmName
+                    }
               }
               be {
                 name
@@ -32,6 +38,10 @@ const allDirectorsJson = () => {
                 description
                 time
                 }
+                films {
+                    filmYear
+                    filmName
+                    }
               }
               ru {
                 name
@@ -43,15 +53,19 @@ const allDirectorsJson = () => {
                 description
                 time
                 }
+                films {
+                    filmYear
+                    filmName
+                    }
               }
             }
           }
         }
       }
     `,
-  );
+    );
 
-  return directorsInfo;
+    return directorsInfo;
 };
 
 export default allDirectorsJson;
