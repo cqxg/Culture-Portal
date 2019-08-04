@@ -6,7 +6,7 @@ import Image from '../components/Image/Image';
 import SEO from '../components/seo';
 import Time from '../components/Timeline/Timeline';
 import Video from '../components/Video/Video';
-import DirectorMap from '../components/Map/Map'
+import DirectorMap from '../components/DirectorMap/DirectorMap'
 
 
 
