@@ -35,7 +35,7 @@ function renderImage(file) {
         renderImage(images.edges.find(image => {
             return image && image.node && image.node.relativePath === props.src;
         }))
-      )}
+      }
     />
   )
 }
