@@ -33,7 +33,7 @@ const DirectorOfDay = ({ intl, director }) => {
                     <div
                         className={directorOfDayStyles.directorOfDay_container_content_img_resize}
                     >
-                        <Image src={director.image.substr(1)}></Image>
+                        <Image src={director.image}></Image>
                     </div>
                 </Col>
             </Row>
