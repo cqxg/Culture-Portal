@@ -5,6 +5,9 @@ import Layout from '../components/Layouts/Layout';
 import Image from '../components/Image/Image';
 import SEO from '../components/seo';
 import Time from '../components/Timeline/Timeline';
+import Video from '../components/Video/Video';
+import Map from '../components/Map/Map';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
@@ -37,6 +40,7 @@ const Director = ({ intl, location }) => {
                     <h1>
                       {directorData[lang] && directorData[lang].name}
                     </h1>
+                    <Image src={directorData.image.substr(1)}></Image>
                     <p>
                       {directorData[lang] && directorData[lang].yearsOfLife}
                     </p>
@@ -44,12 +48,31 @@ const Director = ({ intl, location }) => {
                     </div>
                   </Col>
                 </Row>
+                <Row>
+                    <Col size={12}>
+                        <Time timelineArray={directorData[intl.locale].timeline}/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size={12}>
+                        <Video url={directorData[intl.locale].video}/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size={12}>
+                        <Map/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size={12}>
+                        Here will be the Gallery
+                    </Col>
+                </Row>               
               </div>
             </>
           }
           }
         </IntlContextConsumer>
-        <Time />
       </Container>
     </Layout>
   )
