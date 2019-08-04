@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+// import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import RBCarousel from "react-bootstrap-carousel";
 
 import carouselStyles from './carousel.module.less';
