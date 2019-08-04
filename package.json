@@ -12,7 +12,7 @@
     "eslint-plugin-import": "^2.17.2",
     "gatsby": "^2.13.39",
     "gatsby-cli": "^2.7.26",
-    "gatsby-image": "^2.2.6",
+    "gatsby-image": "^2.2.8",
     "gatsby-plugin-intl": "^0.2.7",
     "gatsby-plugin-less": "^2.1.2",
     "gatsby-plugin-manifest": "^2.2.4",
