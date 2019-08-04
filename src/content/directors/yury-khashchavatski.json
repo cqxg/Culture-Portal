@@ -1,0 +1,286 @@
+{
+  "id": "yury-khashchavatski",
+  "image": "/uploads/khashchavatski.jpg",
+  "locationPin": "{\"type\":\"Point\",\"coordinates\":[27.63,53.927]}",
+  "galleryImages": [
+    {
+      "image": "/uploads/khashchavatski-gallery-1.jpg"
+    },
+    {
+      "image": "/uploads/khashchavatski-gallery-2.jpg"
+    },
+    {
+      "image": "/uploads/khashchavatski-gallery-3.jpg"
+    },
+    {
+      "image": "/uploads/khashchavatski-gallery-4.jpg"
+    },
+    {
+      "image": "/uploads/khashchavatski-gallery-5.jpg"
+    },
+    {
+      "image": "/uploads/khashchavatski-gallery-6.jpg"
+    }
+  ],
+  "en": {
+    "name": "Yury Khashchavatski",
+    "yearsOfLife": "18 October 1947 - current time",
+    "location": "Odessa, USSR",
+    "bio": "Belarusian and Soviet film director. Member of the Union of Cinematographers of Belarus",
+    "timeline": [
+      {
+        "time": "1973",
+        "description": "Graduated from Odessa Technological Institute in 1973"
+      },
+      {
+        "time": "1976 - 1978",
+        "description": "Worked as a director in Beltorgklama in 1976-1978"
+      },
+      {
+        "time": "1978 - 1984",
+        "description": "Worked as a director on Belarusian TV from 1978 to 1984"
+      },
+      {
+        "time": "1981",
+        "description": "Graduated from the Russian State Institute of Stage Arts in 1981"
+      },
+      {
+        "time": "1985 - 1989",
+        "description": "Worked as a director at the \"Belarusian TV Film\" in 1985-1989"
+      },
+      {
+        "time": "1989",
+        "description": "Director at the Belarusfilm studio since 1989"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1985",
+        "filmName": "This quiet life in Glubokoe"
+      },
+      {
+        "filmYear": "1987",
+        "filmName": "Krylov was here"
+      },
+      {
+        "filmYear": "1987",
+        "filmName": "Conscripts"
+      },
+      {
+        "filmYear": "1989",
+        "filmName": "Counterclaim"
+      },
+      {
+        "filmYear": "1991",
+        "filmName": "All is fine"
+      },
+      {
+        "filmYear": "1992",
+        "filmName": "Russian Luck"
+      },
+      {
+        "filmYear": "1996",
+        "filmName": "Oasis"
+      },
+      {
+        "filmYear": "1996",
+        "filmName": "An ordinary president"
+      },
+      {
+        "filmYear": "1998",
+        "filmName": "It's Zhou Enlai time"
+      },
+      {
+        "filmYear": "2000",
+        "filmName": "The Gods of Sickle and Hammer"
+      },
+      {
+        "filmYear": "2002",
+        "filmName": "Live to love"
+      },
+      {
+        "filmYear": "2002",
+        "filmName": "Prisoners of the Caucasus"
+      },
+      {
+        "filmYear": "2008",
+        "filmName": "Looking for Yiddish"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=Kx9sLF77UAs"
+  },
+  "ru": {
+    "name": "Юрий Иосифович Хащеватский",
+    "yearsOfLife": "18 октября 1947",
+    "location": "Одесса, УССР",
+    "bio": "Белорусский и советский кинорежиссёр. Член Союза кинематографистов Беларуси",
+    "timeline": [
+      {
+        "time": "1973",
+        "description": "В 1973 году окончил Одесский технологический институт"
+      },
+      {
+        "time": "1976 - 1978",
+        "description": "Работа режиссером в Белторгрекламе в 1976-1978 гг."
+      },
+      {
+        "time": "1978 - 1984",
+        "description": "Работа режиссером на Белорусском телевидении с 1978 по 1984 гг."
+      },
+      {
+        "time": "1981",
+        "description": "В 1981 окончил Российский государственный институт сценических искусств"
+      },
+      {
+        "time": "1985 - 1989",
+        "description": "Работа режиссером на \"Белорусском телефильме\" в 1985-1989 гг."
+      },
+      {
+        "time": "1989",
+        "description": "Режиссер на киностудии \"Беларусьфильм\" с 1989 г."
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1985",
+        "filmName": "Эта тихая жизнь в Глубоком"
+      },
+      {
+        "filmYear": "1987",
+        "filmName": "Здесь был Крылов"
+      },
+      {
+        "filmYear": "1987",
+        "filmName": "Призывники"
+      },
+      {
+        "filmYear": "1989",
+        "filmName": "Встречный иск"
+      },
+      {
+        "filmYear": "1991",
+        "filmName": "Всё хорошо"
+      },
+      {
+        "filmYear": "1992",
+        "filmName": "Русское счастье"
+      },
+      {
+        "filmYear": "1996",
+        "filmName": "Оазис"
+      },
+      {
+        "filmYear": "1996",
+        "filmName": "Обыкновенный президент"
+      },
+      {
+        "filmYear": "1998",
+        "filmName": "Время Чжоу Эньлая"
+      },
+      {
+        "filmYear": "2000",
+        "filmName": "Боги Серпа и Молота"
+      },
+      {
+        "filmYear": "2002",
+        "filmName": "Дожить до любви"
+      },
+      {
+        "filmYear": "2002",
+        "filmName": "Кавказские пленники"
+      },
+      {
+        "filmYear": "2008",
+        "filmName": "В поисках идиша"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=Kx9sLF77UAs"
+  },
+  "be": {
+    "name": "Юрый Іосіфавіч Хашчавацкі",
+    "yearsOfLife": "18 кастрычніка 1947",
+    "location": "Адэса, УССР",
+    "bio": "Беларускі кінарэжысёр, грамадскі дзеяч, палітык. Член Міжнароднай і Еўразійскай акадэмій тэлебачання і радыё.\r\n\nЛаўрэат міжнародных кінафестываляў у Нью-Ёрку, Сан-Францыска, Жэневе, Берліне, Мюнхене, Лейпцыгу, Бялградзе, Кіеве, Санкт-Пецярбургу",
+    "timeline": [
+      {
+        "time": "1973",
+        "description": "В 1973 годзе скончыў Адэскі тэхналагічны інстытут"
+      },
+      {
+        "time": "1976 - 1978",
+        "description": "Праца рэжысёрам у Белторгрекламе ў 1976-1978 гг."
+      },
+      {
+        "time": "1978 - 1984",
+        "description": "Праца рэжысёрам на Беларускім тэлебачанні з 1978 па 1984 гг."
+      },
+      {
+        "time": "1981",
+        "description": "У 1981 скончыў Расійскі дзяржаўны інстытут сцэнічных мастацтваў"
+      },
+      {
+        "time": "1985 - 1989",
+        "description": "Праца рэжысёрам на \"Беларускім тэлефільме\" у 1985-1989 гг."
+      },
+      {
+        "time": "1989",
+        "description": "Рэжысёр на кінастудыі \"Беларусьфільм\" з 1989 г."
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1985",
+        "filmName": "Гэта ціхае жыццё ў Глыбокім"
+      },
+      {
+        "filmYear": "1987",
+        "filmName": "Тут быў Крылоў"
+      },
+      {
+        "filmYear": "1987",
+        "filmName": "Прызыўнікі"
+      },
+      {
+        "filmYear": "1989",
+        "filmName": "Сустрэчны пазоў"
+      },
+      {
+        "filmYear": "1991",
+        "filmName": "Усё добра"
+      },
+      {
+        "filmYear": "1992",
+        "filmName": "Рускае шчасце"
+      },
+      {
+        "filmYear": "1996",
+        "filmName": "Аазіс"
+      },
+      {
+        "filmYear": "1996",
+        "filmName": "Звычайны прэзідэнт"
+      },
+      {
+        "filmYear": "1998",
+        "filmName": "Час Чжоў Энлая"
+      },
+      {
+        "filmYear": "2000",
+        "filmName": "Богі сярпа і молата"
+      },
+      {
+        "filmYear": "2002",
+        "filmName": "Дажыць да кахання"
+      },
+      {
+        "filmYear": "2002",
+        "filmName": "Каўказскія нявольнікі"
+      },
+      {
+        "filmYear": "2008",
+        "filmName": "У пошуках ідышу"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=Kx9sLF77UAs"
+  }
+}
