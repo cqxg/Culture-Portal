@@ -46,6 +46,8 @@
 	},
 
 	"directorPage": {
-		"map": "Map"
+    "map": "Map",
+    "filmYear": "Year of film",
+    "filmName": "Film Title"
   }
 }
