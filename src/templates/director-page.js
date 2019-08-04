@@ -12,6 +12,8 @@ import Carousel from '../components/Carousel/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 
+import directorPageStyles from "./director-page.module.less";
+
 const DirectorTemplate = ({ data, intl }) => {
   console.log(intl.locale);
   const director = data.directorsJson;
@@ -19,12 +21,7 @@ const DirectorTemplate = ({ data, intl }) => {
     <Layout>
       <Container>
         <Row>
-          <Col lg={6} md={6} xs={12}>
-            <p>
-              {director[intl.locale] && director[intl.locale].bio}
-            </p>
-          </Col>
-          <Col lg={6} md={6} xs={12}>
+          <Col lg={12} md={12} xs={12} className={directorPageStyles.directorInfo}>
             <SEO
               lang={intl.locale}
               title={intl.formatMessage({ id: "directors.titleDirector" })}
@@ -32,7 +29,12 @@ const DirectorTemplate = ({ data, intl }) => {
             <h1>
               {director[intl.locale] && director[intl.locale].name}
             </h1>
-            {director.image && <Image src={director.image}></Image>}
+            <p>
+              {director[intl.locale] && director[intl.locale].bio}
+            </p>
+            <div className={directorPageStyles.imgResize}>
+              {director.image && <Image src={director.image}></Image>}
+            </div>
             <p>
               {director[intl.locale] && director[intl.locale].yearsOfLife}
             </p>
@@ -44,13 +46,13 @@ const DirectorTemplate = ({ data, intl }) => {
           </Col>
         </Row>
         <Row>
-          <Col size={12}>
+          <Col size={12} style={{marginBottom: `60px`}}>
             {director[intl.locale] && <Video url={director[intl.locale].video} />}
           </Col>
         </Row>
         <Row>
-          <Col size={12}>
-            {director[intl.locale] && <DirectorMap></DirectorMap>}
+          <Col size={12} className={directorPageStyles.mapComponentContainer}>
+            {director[intl.locale] && <DirectorMap/>}
           </Col>
         </Row>
         <Row className="mt-5">
