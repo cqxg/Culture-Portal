@@ -1,55 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactModal from "react-modal";
 import Youtube from "react-youtube";
 import getVideoId from "get-video-id";
-import { Link } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col, Button } from "reactstrap";
-import FormattedMessage from "gatsby-plugin-intl";
+import { Col, Button } from "reactstrap";
 
 import videoStyles from './video.module.less';
 
-ReactModal.setAppElement("#___gatsby");
 
-class Video extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      isModalOpen: false,
-      url: props.videoUrl
-    }
-  }
+const Video = ({ url }) => {
+    ReactModal.setAppElement("#___gatsby");
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
-  handleModalOpen = event => {
-    this.setState({ isModalOpen: true })
-  }
+    const handleModalOpen = event => {
+        setIsModalOpen(true);
+    };
 
-  handleModalClose = event => {
-    this.setState({ isModalOpen: false })
-  }
+    const handleModalClose = event => {
+        setIsModalOpen(false);
+    };
 
-  render() {
-    return (
-      <>
-        <Col lg={12} className={videoStyles.video}>
-          <h1>Youtube</h1>
-          <Button variant="primary" onClick={this.handleModalOpen} size="lg">
-            Watch the video
+    return <>
+            <Col lg={12} className={videoStyles.video}>
+                <h1>YouTube</h1>
+                <Button variant="primary" onClick={handleModalOpen} size="lg">
+                    Watch the video
           </Button>
-        </Col>
-        
-        <ReactModal
-          isOpen={this.state.isModalOpen}
-          onRequestClose={this.handleModalClose}
-          contentLabel="Director's videos"
-          className={videoStyles.modal}
-          overlayClassName={videoStyles.overlay}
-        >
-          <Youtube className={videoStyles.youtube} videoId={getVideoId(this.state.url).id} />
-        </ReactModal>
-      </>
-    )
-  }
+            </Col>
+
+            <ReactModal
+                isOpen={isModalOpen}
+                onRequestClose={handleModalClose}
+                contentLabel="Director's videos"
+                className={videoStyles.modal}
+                overlayClassName={videoStyles.overlay}
+            >
+                <Youtube className={videoStyles.youtube} videoId={getVideoId(url).id} />
+            </ReactModal>
+        </>    
 };
 
 export default Video;
