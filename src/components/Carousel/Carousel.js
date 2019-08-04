@@ -8,7 +8,7 @@ import carouselStyles from './carousel.module.less';
 const Carousel = (props) => {
   const slides = props.images.map((image, i) => <img key={i} src={image.image} />);
 
-  return (
+//   return (
     // <RBCarousel className={carouselStyles.carousel_block}
     //   animation={true}
     //   autoplay={true}
@@ -17,7 +17,7 @@ const Carousel = (props) => {
     // >
     //   {slides}
     // </RBCarousel>
-  );
+//   );
 }
 
 export default Carousel;
