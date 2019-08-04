@@ -8,9 +8,9 @@ import { Container, Row, Col } from 'reactstrap';
 import mainStyles from '../mainStyles/main.module.less';
 
 const IndexPage = ({ intl }) => {
-    const directorsInfoJson = directorsInfo().allDirectorsJson.edges.map(node => node.node);
-    const random = Math.floor((Math.random() * directorsInfoJson.length)) + 1;
-    const dirOfTheDay = directorsInfoJson[random-1];
+    const directors = directorsInfo().allDirectorsJson.edges.map(node => node.node);
+    const random = Math.floor((Math.random() * directors.length));
+    const dirOfTheDay = directors[random];
 
   return (
     <Layout>

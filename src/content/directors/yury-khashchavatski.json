@@ -1,25 +1,25 @@
 {
   "id": "yury-khashchavatski",
-  "image": "/uploads/khashchavatski.jpg",
+  "image": "uploads/khashchavatski.jpg",
   "locationPin": "{\"type\":\"Point\",\"coordinates\":[27.63,53.927]}",
   "galleryImages": [
     {
-      "image": "/uploads/khashchavatski-gallery-1.jpg"
+      "image": "uploads/khashchavatski-gallery-1.jpg"
     },
     {
-      "image": "/uploads/khashchavatski-gallery-2.jpg"
+      "image": "uploads/khashchavatski-gallery-2.jpg"
     },
     {
-      "image": "/uploads/khashchavatski-gallery-3.jpg"
+      "image": "uploads/khashchavatski-gallery-3.jpg"
     },
     {
-      "image": "/uploads/khashchavatski-gallery-4.jpg"
+      "image": "uploads/khashchavatski-gallery-4.jpg"
     },
     {
-      "image": "/uploads/khashchavatski-gallery-5.jpg"
+      "image": "uploads/khashchavatski-gallery-5.jpg"
     },
     {
-      "image": "/uploads/khashchavatski-gallery-6.jpg"
+      "image": "uploads/khashchavatski-gallery-6.jpg"
     }
   ],
   "en": {

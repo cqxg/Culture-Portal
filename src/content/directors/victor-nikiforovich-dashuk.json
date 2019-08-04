@@ -1,22 +1,22 @@
 {
   "id": "victor-nikiforovich-dashuk",
-  "image": "/uploads/dashuk.jpg",
+  "image": "uploads/dashuk.jpg",
   "locationPin": "{\"type\":\"Point\",\"coordinates\":[27.6303191,53.9269268]}",
   "galleryImages": [
     {
-      "image": "/uploads/dashuk-gallery-1.jpg"
+      "image": "uploads/dashuk-gallery-1.jpg"
     },
     {
-      "image": "/uploads/dashuk-gallery-2.jpg"
+      "image": "uploads/dashuk-gallery-2.jpg"
     },
     {
-      "image": "/uploads/dashuk-gallery-3.jpg"
+      "image": "uploads/dashuk-gallery-3.jpg"
     },
     {
-      "image": "/uploads/dashuk-gallery-4.jpg"
+      "image": "uploads/dashuk-gallery-4.jpg"
     },
     {
-      "image": "/uploads/dashuk-gallery-5.jpg"
+      "image": "uploads/dashuk-gallery-5.jpg"
     }
   ],
   "en": {

@@ -1,0 +1,223 @@
+{
+  "id": "mikhail-nikolaevich-ptashuk",
+  "image": "uploads/ptashuk.jpg",
+  "locationPin": "{\"type\":\"Point\",\"coordinates\":[26.168,53.068]}",
+  "galleryImages": [
+    {
+      "image": "uploads/ptashuk-gallery-1.jpg"
+    },
+    {
+      "image": "uploads/ptashuk-gallery-2.jpg"
+    },
+    {
+      "image": "uploads/ptashuk-gallery-3.jpg"
+    },
+    {
+      "image": "uploads/ptashuk-gallery-4.jpg"
+    },
+    {
+      "image": "uploads/ptashuk-gallery-5.jpg"
+    }
+  ],
+  "en": {
+    "name": "Mikhail Nikolaevich Ptashuk",
+    "yearsOfLife": "28 January 1943 – 26 April 2002",
+    "location": "Fedyuki",
+    "bio": "Soviet and Belarusian film director. People's Artist of the BSSR (1990)",
+    "timeline": [
+      {
+        "time": "1943",
+        "description": "Mikhail was born on January 28, 1943 in the German-occupied village of Fedyuki"
+      },
+      {
+        "time": "1967",
+        "description": "Graduated in 1967 from the B.V. Shchukin Moscow Theatre School (workshop of B.E. Zakhava)"
+      },
+      {
+        "time": "1972",
+        "description": "In 1972, he studied at the USSR Goskino Higher Directing Courses at the workshop of Georgy Danelia"
+      },
+      {
+        "time": "1980 - 1990",
+        "description": "\"Honored Artist of the BSSR (1982). \t\tPeople's Artist of the BSSR (1990). \t\tState Prize of the BSSR (1982) for the screening of the novel \"I will take your pain\" by I. Shamyakin. \t\tLenin's Komsomol Prize (1980) for the film based on the work of U. Khalip and A. Petrashkevich \"Time chose us\""
+      },
+      {
+        "time": "2002",
+        "description": "Died in Moscow on April 26, 2002 in a car accident on the way to the Nika award"
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1973",
+        "filmName": "About Vitya, Masha, and Marines"
+      },
+      {
+        "filmYear": "1975",
+        "filmName": "Forest Swing"
+      },
+      {
+        "filmYear": "1976",
+        "filmName": "Time Has Chosen Us"
+      },
+      {
+        "filmYear": "1980",
+        "filmName": "I'll Take Your Pain"
+      },
+      {
+        "filmYear": "1984",
+        "filmName": "Black Castle Olshansky"
+      },
+      {
+        "filmYear": "1986",
+        "filmName": "Sign of Disaster"
+      },
+      {
+        "filmYear": "1989",
+        "filmName": "Our Armoured Train"
+      },
+      {
+        "filmYear": "1995",
+        "filmName": "Game of Imagination"
+      },
+      {
+        "filmYear": "2001",
+        "filmName": "In August of 1944"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=Z_gRBoITbnU"
+  },
+  "ru": {
+    "name": "Михаил Николаевич Пташук",
+    "yearsOfLife": "28 января 1943 - 26 апреля 2002",
+    "location": "д. Федюки, Ляховичский район, Брестская область ",
+    "bio": "Советский и белорусский кинорежиссёр. Народный артист БССР (1990)",
+    "timeline": [
+      {
+        "time": "1943",
+        "description": "Михаил родился 28 января 1943 года в оккупированной немецкими захватчиками деревне Федюки"
+      },
+      {
+        "time": "1967",
+        "description": "Окончил в 1967 году Московское театральное училище имени Б. В. Щукина (мастерская Б.Е.Захавы)"
+      },
+      {
+        "time": "1972",
+        "description": "В 1972 году обучался на Высших режиссёрских курсах Госкино СССР в мастерской Георгия Данелии"
+      },
+      {
+        "time": "1980 - 1990",
+        "description": "\"Заслуженный деятель искусств БССР (1982). \t\tНародный артист БССР (1990). \t\tГосударственная премия БССР (1982) за экранизацию романа И.Шамякина \"Возьму твою боль\". \t\tПремия Ленинского комсомола (1980) за кинофильм по произведению У.Халипа и А.Петрашкевича \"Время выбрало нас\""
+      },
+      {
+        "time": "2002",
+        "description": "Погиб 26 апреля 2002 года в Москве в автомобильной катастрофе по пути на присуждение премии \"Ника\""
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1973",
+        "filmName": "Про Витю, про Машу и морскую пехоту"
+      },
+      {
+        "filmYear": "1975",
+        "filmName": "Лесные качели"
+      },
+      {
+        "filmYear": "1976",
+        "filmName": "Время выбрало нас"
+      },
+      {
+        "filmYear": "1980",
+        "filmName": "Возьму твою боль"
+      },
+      {
+        "filmYear": "1984",
+        "filmName": "Чёрный замок Ольшанский"
+      },
+      {
+        "filmYear": "1986",
+        "filmName": "Знак беды"
+      },
+      {
+        "filmYear": "1989",
+        "filmName": "Наш бронепоезд"
+      },
+      {
+        "filmYear": "1995",
+        "filmName": "Игра воображения"
+      },
+      {
+        "filmYear": "2001",
+        "filmName": "В августе 44-го…"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=Z_gRBoITbnU"
+  },
+  "be": {
+    "name": "Міхаіл Мікалаевіч Пташук",
+    "yearsOfLife": "28 студзеня 1943 - 26 красавіка 2002",
+    "location": "в. Фядзюкі Ляхавіцкага р-на",
+    "bio": "Беларускі кінарэжысёр, акцёр, прадзюсар. Народны артыст БССР (1990)",
+    "timeline": [
+      {
+        "time": "1943",
+        "description": "Міхаіл нарадзіўся 28 студзеня 1943 года ў акупіраванай нямецкімі захопнікамі вёсцы Фядзюкі"
+      },
+      {
+        "time": "1967",
+        "description": "Скончыў у 1967 рэжысёрскі факультэт Тэатральнага вучылішча імя Б. Шчукіна (майстэрня Б.Е.Захавы)"
+      },
+      {
+        "time": "1972",
+        "description": "У 1972 вывучаўся на Вышэйшых рэжысёрскіх курсах Дзяржкіно СССР (майстэрня Г. Данеліі)"
+      },
+      {
+        "time": "1980 - 1990",
+        "description": "\"Заслужаны дзеяч мастацтваў БССР (1982). \t\tНародны артыст БССР (1990). \t\tДзяржаўная прэмія БССР (1982) за экранізацыю рамана І. Шамякіна \"Вазьму твой боль\". \t\tПрэмія Ленінскага камсамола (1980) за кінафільм паводле твора У. Халіпа і А. Петрашкевіча \"Время выбрало нас\""
+      },
+      {
+        "time": "2002",
+        "description": "Загінуў 26 красавіка 2002 года ў Маскве ў аўтамабільнай катастрофе па дарозе на прысуджэнне прэміі \"Ніка\""
+      }
+    ],
+    "films": [
+      {
+        "filmYear": "1973",
+        "filmName": "Пра Віцю, пра Машу і марскую пяхоту"
+      },
+      {
+        "filmYear": "1975",
+        "filmName": "Лясныя арэлі"
+      },
+      {
+        "filmYear": "1976",
+        "filmName": "Час выбраў нас"
+      },
+      {
+        "filmYear": "1980",
+        "filmName": "Вазьму твой боль"
+      },
+      {
+        "filmYear": "1984",
+        "filmName": "Чорны замак Альшанскі"
+      },
+      {
+        "filmYear": "1986",
+        "filmName": "Знак бяды"
+      },
+      {
+        "filmYear": "1989",
+        "filmName": "Наш браняпоезд"
+      },
+      {
+        "filmYear": "1995",
+        "filmName": "Гульня ўяўлення"
+      },
+      {
+        "filmYear": "2001",
+        "filmName": "У жніўні 44-га…"
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=Z_gRBoITbnU"
+  }
+}
