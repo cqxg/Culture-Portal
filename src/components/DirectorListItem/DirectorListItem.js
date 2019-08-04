@@ -6,7 +6,6 @@ import directorsStyles from '../../mainStyles/directors.module.less';
 
 
 const DirectorListItem = ({ directorData, locale }) => {
-    console.log(directorData);
     return (
         <Row>
             <Col lg={12} className={directorsStyles.mainTitle}>

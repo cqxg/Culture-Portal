@@ -12,13 +12,22 @@ import SearchBar from '../components/Search/SearchBar';
 const Directors = ({ intl }) => {
     const directorsInfoJson = directorsInfo().allDirectorsJson.edges.map(node => node.node);
     const [directorsAfterSearch, setDirectorsAfterSearch] = useState(directorsInfoJson);
-    const searchFunc = () => {
-        const searchBoth = (target) => (
-            target.name.toLowerCase().includes(lookFor.toLowerCase())
-            || target.location.toLowerCase().includes(lookFor.toLowerCase()));
-        const result = directorsInfoJson.filter(dir => searchBoth(dir));
-        setDirectorsAfterSearch(result);
-    }
+    const searchFunc = (lookFor) => {
+        console.log(lookFor);
+        if (lookFor.value) {
+            const searchBoth = (target) => {
+                console.log(target);
+
+                return (
+                    target[intl.locale].name.toLowerCase().includes(lookFor.value.toLowerCase())
+                    || target[intl.locale].location.toLowerCase().includes(lookFor.value.toLowerCase()))
+            };
+            const result = directorsInfoJson.filter(dir => searchBoth(dir));
+            setDirectorsAfterSearch(result);
+        } else {
+            setDirectorsAfterSearch(directorsInfoJson);
+        }
+    };
 
     return (<Layout>
         <Container className={directorsStyles.directors_container}>
@@ -34,7 +43,7 @@ const Directors = ({ intl }) => {
                 </Col>
             </Row>
             <Row>
-                <SearchBar />
+                <SearchBar sortFunc={searchFunc} />
             </Row>
             {directorsAfterSearch.map((director, index) => <DirectorListItem
                 directorData={director}
