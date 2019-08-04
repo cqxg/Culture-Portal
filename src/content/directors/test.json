@@ -1,6 +1,6 @@
 {
   "id": "test",
-  "image": "/uploads/anonymous.png",
+  "image": "uploads/anonymous.png",
   "locationPin": "{\"type\":\"Point\",\"coordinates\":[-88.7343696,49.0148156]}",
   "en": {
     "name": "test",

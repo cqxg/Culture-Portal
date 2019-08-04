@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 
 import 'leaflet/dist/leaflet.css';
-// import mapStyles from './map.module.less';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
 class DirectorMap extends React.Component {
@@ -22,9 +21,9 @@ class DirectorMap extends React.Component {
 				<>
 					<Container>
 						<Row>
-							<Col lg={12} className={mapStyles.map_col}>
+							<Col lg={12}>
 							<h1><FormattedMessage id='directorPage.map' /></h1>
-							<Map center={position} zoom={this.state.zoom} className={mapStyles.map}>
+							<Map center={position} zoom={this.state.zoom} style={{height: "300px"}}>
 								<TileLayer
 									attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 									url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
