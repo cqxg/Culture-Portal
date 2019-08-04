@@ -16,11 +16,12 @@ collections:
     filter: {field: "language", value: "en"}
     fields:
      - {label: "ID", name: id, widget: "string", hint: "Format: 'name-lastname', e.g. 'john-doe'"}
-     - {label: "Avatar/Аватар/Аватар", name: "image", widget: "image", default: "/uploads/anonymous.png"}
-     - {label: "Location pin", name: "locationPin", widget: "map", hint: "Choose a place on map related to the director"}
+     - {label: "Avatar/Аватар/Аватар", name: "image", widget: "image", default: "/uploads/anonymous.png", hint: "Images should be of jpeg|jpg|png formats"}
+     - {label: "Location pin", name: "locationPin", widget: "map", hint: "Choose a place on map related to the director", decimals: "3"}
      - label: "Gallery/Галерея/Галерэя"
        name: "galleryImages"
        widget: "list"
+       hint: "Images should be of jpeg|jpg|png formats"
        fields:
         - label: "Image/Изображение/Малюнак"
           name: "image"
