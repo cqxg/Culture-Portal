@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Button, Form, FormGroup, Input } from 'reactstrap';
 import searchStyles from './search.module.less';
 
-const SearchBar = ({ term, data, update, sortFunc }) => {
+const SearchBar = ({ sortFunc }) => {
     const [value, setValue] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
