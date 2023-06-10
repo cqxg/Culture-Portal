@@ -11,7 +11,7 @@
     "eslint-config-ideal": "^1.0.0",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.17.2",
-    "gatsby": "^2.13.39",
+    "gatsby": "^4.25.7",
     "gatsby-cli": "^2.7.26",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-intl": "^0.2.7",
